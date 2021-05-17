@@ -15,7 +15,11 @@ Goal is to establish a global Network of standardized WSPR Beacons sharing the s
 - Same transmission schedule
 - Same Band coverage --> 80,40,20,15 and 10m
 
+Focus Regions for such Beacons are:
 
+- Hawaii
+- South America
+- 
 
 
 
