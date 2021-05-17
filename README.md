@@ -17,9 +17,21 @@ Goal is to establish a global Network of standardized WSPR Beacons sharing the s
 
 Focus Regions for such Beacons are:
 
+
+- Alaska
+- Australia
+- Canada
+- Central Europe
 - Hawaii
+- Iceland
+- India
+- Japan
+- New Zealand
+- Asiatic Russia
+- Scandinavia
+- South Africa
 - South America
-- 
-
-
-
+- UAE
+- USA east coast
+- USA west coast
+- Any other interesting Region
