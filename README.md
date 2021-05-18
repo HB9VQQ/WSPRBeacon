@@ -10,7 +10,7 @@ This Firmware extends the factory functionality by adding a coordinated WSPR Ban
 For each enabled Band the scheduler will start to transmit on the defined Minute. This enables a global Network of WSPR Beacons to transmit at the same Time and on the same Band.
 The exact TX Frequency within the allocated WSPR segment/Band (200 Hz) is picked randomly by the Firmware. These coordinated Beacon Signals can then be decoded with WSJT-X and uploaded to the [WSPRnet.org](https://wsprnet.org/drupal/) Database for further analysis.
 
-## Why?
+### Why?
 
 To identify and visualize weak Signal Propagation paths to study global Ham Radio HF Propagation for the interested audience.
 
