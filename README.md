@@ -14,6 +14,8 @@ The exact TX Frequency within the allocated WSPR segment/Band (200 Hz) is picked
 
 To identify and visualize weak Signal Propagation paths to study global Ham Radio HF Propagation for the interested audience.
 
+### How?
+
 Goal is to establish a global Network of permanently installed and standardized WSPR Beacons running 24x7x365, sharing the same or a very similar Setup:
 
 - Omni directional Antenna (vert. EFHW, Multiband GP etc.)
