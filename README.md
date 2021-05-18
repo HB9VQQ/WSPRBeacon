@@ -23,8 +23,9 @@ Goal is to establish a global Network of permanently installed, standardized, ea
 - Same transmission schedule
 - Same Band coverage --> 80,40,20,15 and 10m
 
-Focus Regions for such Beacons are:
+Customized ready-to-use WSPR Transmitters covering the above mentioned Bands will be made available at a later stage of the Project.
 
+Focus Regions for such Beacons are:
 
 - Alaska
 - Australia
