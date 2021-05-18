@@ -1219,27 +1219,25 @@ void DoWSPR ()
             if (GadgetData.WSPRData.LocatorOption == GPS) { //If GPS should update the Maidenhead locator
               calcLocator (fix.latitude(), fix.longitude());
             }
-            int band = CurrentBand - 1;
             if
             (
-              ((band == 2 and GPSM == 0 and GPSS == 0) or (band == 2 and GPSM == 20 and GPSS == 0) or (band == 2 and GPSM == 40 and GPSS == 0))
+              ((CurrentBand == 2 and GPSM == 0 and GPSS == 0) or (CurrentBand == 2 and GPSM == 20 and GPSS == 0) or (CurrentBand == 2 and GPSM == 40 and GPSS == 0))
               or
-              ((band == 3 and GPSM == 2 and GPSS == 0) or (band == 3 and GPSM == 22 and GPSS == 0) or (band == 3 and GPSM == 42 and GPSS == 0))
+              ((CurrentBand == 3 and GPSM == 2 and GPSS == 0) or (CurrentBand == 3 and GPSM == 22 and GPSS == 0) or (CurrentBand == 3 and GPSM == 42 and GPSS == 0))
               or
-              ((band == 4 and GPSM == 6 and GPSS == 0) or (band == 4 and GPSM == 26 and GPSS == 0) or (band == 4 and GPSM == 46 and GPSS == 0))
+              ((CurrentBand == 4 and GPSM == 6 and GPSS == 0) or (CurrentBand == 4 and GPSM == 26 and GPSS == 0) or (CurrentBand == 4 and GPSM == 46 and GPSS == 0))
               or
-              ((band == 5 and GPSM == 8 and GPSS == 0) or (band == 5 and GPSM == 28 and GPSS == 0) or (band == 5 and GPSM == 48 and GPSS == 0))
+              ((CurrentBand == 5 and GPSM == 8 and GPSS == 0) or (CurrentBand == 5 and GPSM == 28 and GPSS == 0) or (CurrentBand == 5 and GPSM == 48 and GPSS == 0))
               or
-              ((band == 6 and GPSM == 10 and GPSS == 0) or (band == 6 and GPSM == 30 and GPSS == 0) or (band == 6 and GPSM == 50 and GPSS == 0))
+              ((CurrentBand == 6 and GPSM == 10 and GPSS == 0) or (CurrentBand == 6 and GPSM == 30 and GPSS == 0) or (CurrentBand == 6 and GPSM == 50 and GPSS == 0))
               or
-              ((band == 7 and GPSM == 12 and GPSS == 0) or (band == 7 and GPSM == 32 and GPSS == 0) or (band == 7 and GPSM == 52 and GPSS == 0))
+              ((CurrentBand == 7 and GPSM == 12 and GPSS == 0) or (CurrentBand == 7 and GPSM == 32 and GPSS == 0) or (CurrentBand == 7 and GPSM == 52 and GPSS == 0))
               or
-              ((band == 8 and GPSM == 14 and GPSS == 0) or (band == 8 and GPSM == 34 and GPSS == 0) or (band == 8 and GPSM == 54 and GPSS == 0))
+              ((CurrentBand == 8 and GPSM == 14 and GPSS == 0) or (CurrentBand == 8 and GPSM == 34 and GPSS == 0) or (CurrentBand == 8 and GPSM == 54 and GPSS == 0))
               or
-              ((band == 9 and GPSM == 16 and GPSS == 0) or (band == 9 and GPSM == 36 and GPSS == 0) or (band == 9 and GPSM == 56 and GPSS == 0))
+              ((CurrentBand == 9 and GPSM == 16 and GPSS == 0) or (CurrentBand == 9 and GPSM == 36 and GPSS == 0) or (CurrentBand == 9 and GPSM == 56 and GPSS == 0))
               or
-              ((band == 10 and GPSM == 18 and GPSS == 0) or (band == 10 and GPSM == 38 and GPSS == 0) or (band == 10 and GPSM == 58 and GPSS == 0))
-
+              ((CurrentBand == 10 and GPSM == 18 and GPSS == 0) or (CurrentBand == 10 and GPSM == 38 and GPSS == 0) or (CurrentBand == 10 and GPSM == 58 and GPSS == 0))
             )
               //If second is zero at even minute then start WSPR transmission (should be one second after the top but GPS parsing makes us a bit late in our time keeping so this will compensate for that)
             {
