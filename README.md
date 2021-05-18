@@ -6,7 +6,7 @@ This Firmware extends the factory functionality by adding a coordinated WSPR Ban
 ![image](https://user-images.githubusercontent.com/75934980/118491568-6cabce00-b71f-11eb-9634-eb7d8e3a8a85.png)
 
 For each enabled Band the scheduler will start to transmit on the defined Minute. This enables a global Network of WSPR Beacons to transmit at the same Time and on the same Band.
-The exact TX Frequency within the allocated WSPR segment/Band (200 Hz) is picked randomly by the Firmware. These coordinated Beacon Signals can then be decoded with WSJT-X and uploaded to the [WSPRnet.org](https://wsprnet.org/drupal/) Database.
+The exact TX Frequency within the allocated WSPR segment/Band (200 Hz) is picked randomly by the Firmware. These coordinated Beacon Signals can then be decoded with WSJT-X and uploaded to the [WSPRnet.org](https://wsprnet.org/drupal/) Database for further analysis.
 
 Goal is to establish a global Network of permanently installed and standardized WSPR Beacons running 24x7x365, sharing the same or a very similar Setup:
 
