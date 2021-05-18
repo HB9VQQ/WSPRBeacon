@@ -38,4 +38,4 @@ Focus Regions for such Beacons are:
 - USA west coast
 - Any other interesting Region
 
-Please drop me a line if you are ready to run a permanent WSPR Beacon and want to participate in the International WSPR Beacon Project.
+Please drop me a line if you are interested to run a permanent WSPR Beacon and want to participate in the International WSPR Beacon Project.
