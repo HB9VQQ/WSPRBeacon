@@ -95,7 +95,7 @@ const uint8_t  SoftwareRevision = 0; //0 to 255
 // Product model. WSPR-TX Pico                            =1028
 // Product model. WSPR-TX_LP1 with Mezzanine BLP4 card    =1029
 
-const uint16_t Product_Model                              =1012;
+const uint16_t Product_Model                              = 1012;
 
 
 #include <EEPROM.h>
@@ -1219,7 +1219,29 @@ void DoWSPR ()
             if (GadgetData.WSPRData.LocatorOption == GPS) { //If GPS should update the Maidenhead locator
               calcLocator (fix.latitude(), fix.longitude());
             }
-            if ((GPSS == 00) && ((GPSM % 2) == 0))//If second is zero at even minute then start WSPR transmission (should be one second after the top but GPS parsing makes us a bit late in our time keeping so this will compensate for that)
+            int band = CurrentBand - 1;
+            if
+            (
+              ((band == 2 and GPSM == 0 and GPSS == 0) or (band == 2 and GPSM == 20 and GPSS == 0) or (band == 2 and GPSM == 40 and GPSS == 0))
+              or
+              ((band == 3 and GPSM == 2 and GPSS == 0) or (band == 3 and GPSM == 22 and GPSS == 0) or (band == 3 and GPSM == 42 and GPSS == 0))
+              or
+              ((band == 4 and GPSM == 6 and GPSS == 0) or (band == 4 and GPSM == 26 and GPSS == 0) or (band == 4 and GPSM == 46 and GPSS == 0))
+              or
+              ((band == 5 and GPSM == 8 and GPSS == 0) or (band == 5 and GPSM == 28 and GPSS == 0) or (band == 5 and GPSM == 48 and GPSS == 0))
+              or
+              ((band == 6 and GPSM == 10 and GPSS == 0) or (band == 6 and GPSM == 30 and GPSS == 0) or (band == 6 and GPSM == 50 and GPSS == 0))
+              or
+              ((band == 7 and GPSM == 12 and GPSS == 0) or (band == 7 and GPSM == 32 and GPSS == 0) or (band == 7 and GPSM == 52 and GPSS == 0))
+              or
+              ((band == 8 and GPSM == 14 and GPSS == 0) or (band == 8 and GPSM == 34 and GPSS == 0) or (band == 8 and GPSM == 54 and GPSS == 0))
+              or
+              ((band == 9 and GPSM == 16 and GPSS == 0) or (band == 9 and GPSM == 36 and GPSS == 0) or (band == 9 and GPSM == 56 and GPSS == 0))
+              or
+              ((band == 10 and GPSM == 18 and GPSS == 0) or (band == 10 and GPSM == 38 and GPSS == 0) or (band == 10 and GPSM == 58 and GPSS == 0))
+
+            )
+              //If second is zero at even minute then start WSPR transmission (should be one second after the top but GPS parsing makes us a bit late in our time keeping so this will compensate for that)
             {
               if ( (PCConnected) || (Product_Model != 1028) || ((Product_Model == 1028) && OutsideGeoFence ()))//On the WSPR-TX Pico make sure were are outside the territory of UK, Yemen and North Korea before the transmitter is started but allow tranmissions inside the Geo-Fence if a PC is connected so UK users can make testtranmissions on the ground before relase of Picos
               {
@@ -1232,7 +1254,7 @@ void DoWSPR ()
                   pwr2 = ValiddBmValue((AltitudeInMeter - (pwr1 * 300)) / 20); //Finer calculations for the second power transmission (if any depends on user setting) every dBm in this report is 20m. The two reports will be added on the receive side
                   GadgetData.WSPRData.TXPowerdBm = pwr1;
                 }
-             
+
                 if (SendWSPRMessage (1) != 0) //Send a WSPR Type 1 message for 1 minute and 50 seconds
                 {
                   // there was a serial command that interrupted the WSPR Block so go and handle it
@@ -1240,7 +1262,7 @@ void DoWSPR ()
                 }
                 if (GadgetData.WSPRData.LocationPrecision == 6)//If higher position precision is set then start a new WSPR tranmission of type 3
                 {
- 
+
                   delay(9000);      //wait 9 seconds so we are at the top of an even minute again
                   // -------------------- Altitude coding to Power ------------------------------------
                   if (GadgetData.WSPRData.PowerOption == Altitude)// If Power field should be used for Altitude coding
@@ -1343,8 +1365,8 @@ int SendWSPRMessage(uint8_t WSPRMessageType)
         if (CurrentBand < 10) SerialPrintZero();
         Serial.print (CurrentBand);
         Serial.print (" ");
-        if (GadgetData.WSPRData.LocationPrecision==6) Indicator = Indicator / 2; //If four minutes TX time then halve the indicator value so it will be full after four minutes instead of 2 minutes
-        if (WSPRMessageType==3) Indicator = Indicator + 81; //If this is the second 2 minute transmission then start to from 50%
+        if (GadgetData.WSPRData.LocationPrecision == 6) Indicator = Indicator / 2; //If four minutes TX time then halve the indicator value so it will be full after four minutes instead of 2 minutes
+        if (WSPRMessageType == 3) Indicator = Indicator + 81; //If this is the second 2 minute transmission then start to from 50%
         if (Indicator < 10) SerialPrintZero();
         if (Indicator < 100) SerialPrintZero();
         Serial.println (Indicator);
@@ -1795,37 +1817,32 @@ void NextFreq (void)
         freq = WSPR_FREQ630m;
         break;
       case 2:
-        if (GPSM == 0 or GPSM == 20 or GPSM == 40)freq = WSPR_FREQ160m;
-        else break;
+        freq = WSPR_FREQ160m;
         break;
       case 3:
-        if (GPSM == 2 or GPSM == 22 or GPSM == 44)freq = WSPR_FREQ80m ;
-        else break;
+        freq = WSPR_FREQ80m ;
         break;
       case 4:
-        if (GPSM == 6 or GPSM == 26 or GPSM == 46)freq = WSPR_FREQ40m ;
-        else break;
+        freq = WSPR_FREQ40m ;
         break;
       case 5:
-        if (GPSM == 8 or GPSM == 28 or GPSM == 48)freq = WSPR_FREQ30m ;
-        else break;
+        freq = WSPR_FREQ30m ;
         break;
       case 6:
-        if (GPSM == 10 or GPSM == 20 or GPSM == 30)freq = WSPR_FREQ20m ;
-        else break;
+        freq = WSPR_FREQ20m ;
         break;
       case 7:
-        if (GPSM == 12 or GPSM == 32 or GPSM == 52)freq = WSPR_FREQ17m ;
+        freq = WSPR_FREQ17m ;
         break;
       case 8:
-        if (GPSM == 14 or GPSM == 34 or GPSM == 54)freq = WSPR_FREQ15m ;
+        freq = WSPR_FREQ15m ;
         else break;
         break;
       case 9:
-        if (GPSM == 16 or GPSM == 36 or GPSM == 56) freq = WSPR_FREQ12m ;
+        freq = WSPR_FREQ12m ;
         break;
       case 10:
-        if (GPSM == 18 or GPSM == 38 or GPSM == 58) freq = WSPR_FREQ10m ;
+        freq = WSPR_FREQ10m ;
         else break;
         break;
       case 11:
@@ -1833,9 +1850,6 @@ void NextFreq (void)
         break;
       case 12:
         freq = WSPR_FREQ4m ;
-      default:
-        CurrentBand = 0;
-        freq = 0;
     }
     Serial.print("{TBN} ");//Send API update to inform what band we are using at the moment
     if (CurrentBand < 10) SerialPrintZero();
