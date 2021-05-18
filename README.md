@@ -25,6 +25,7 @@ Goal is to establish a global Network of permanently installed, standardized, ea
 
 Customized ready-to-use WSPR Transmitters covering the above mentioned Bands will be made available at a later stage of the Project.
 
+
 Focus Regions for such Beacons are:
 
 - Alaska
