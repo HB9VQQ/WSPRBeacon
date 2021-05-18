@@ -1836,14 +1836,12 @@ void NextFreq (void)
         break;
       case 8:
         freq = WSPR_FREQ15m ;
-        else break;
         break;
       case 9:
         freq = WSPR_FREQ12m ;
         break;
       case 10:
         freq = WSPR_FREQ10m ;
-        else break;
         break;
       case 11:
         freq = WSPR_FREQ6m ;
