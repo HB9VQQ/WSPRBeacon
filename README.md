@@ -12,7 +12,7 @@ For each enabled Band the scheduler will start to transmit at the corresponding 
 ![image](https://user-images.githubusercontent.com/75934980/118852891-7bd37d00-b8d3-11eb-9f1d-f38a72d42085.png)
 
 
-These coordinated Beacon Signals can then be decoded with WSJT-X and uploaded to the [WSPRnet.org](https://wsprnet.org/drupal/) Database for further analysis.
+These coordinated Beacon Signals can then be decoded with WSJT-X (automated Band-Hopping) and uploaded to the [WSPRnet.org](https://wsprnet.org/drupal/) Database for further analysis.
  [Link to a Video](https://www.youtube.com/watch?v=vloVXac17Ss) showing the WSPR Beacon with the custom Firmware in Action.
 
 ### Why?
