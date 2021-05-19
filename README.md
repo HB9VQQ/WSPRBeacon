@@ -23,7 +23,7 @@ Goal is to establish a global Network of permanently installed, standardized, ea
 - Omni directional Antenna (vert. EFHW, Multiband GP etc.)
 - Same RF Power (200 mW)
 - Same transmission schedule
-- Same Band coverage --> 80,40,30,20,15 and 10m
+- Same Band coverage --> 80,40,30,20,15,12 and 10m
 
 Ready-to-use WSPR Beacon Transmitters covering the above mentioned Bands and running the special Beacon Firmware should be available by the End of June 2021 (limited quantity). These Transmitters are purpose built devices for the WSPRBeacon Project by Harry @Zachtek and not available off-the-shelf with the indicated Band coverage.
 
