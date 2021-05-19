@@ -25,7 +25,7 @@ Goal is to establish a global Network of permanently installed, standardized, ea
 - Same transmission schedule
 - Same Band coverage --> 80,40,20,15 and 10m
 
-Customized ready-to-use WSPR Beacon Transmitters covering the above mentioned Bands and running the Beacon Firmware will be made available at a later stage of the Project.
+Customized ready-to-use WSPR Beacon Transmitters covering the above mentioned Bands and running the special Beacon Firmware should be available by the End of June 2021 (limited quantity).
 
 
 Focus Regions for such Beacons are:
