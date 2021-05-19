@@ -1,7 +1,7 @@
 /*
-  Software for Zachtek WSPR Transmitter products
-  For Arduino Pro Mini ATMega 328 8MHz, 3.3V boards or ATMega328P-AU chips
-
+  This code is a modified version of WSPR-TX1.00.ino which you can find using this link https://github.com/HarrydeBug/1011-WSPR-TX_LP1/blob/master/Standard%20Firmware/Release/WSPR-TX1.00.ino.
+  This Firmware extends the factory functionality by adding a coordinated WSPR Band hopping transmit schedule following the WSJT-X implementation (https://www.physics.princeton.edu/pulsar/K1JT/wsjtx-doc/wsjtx-main-2.3.0.html#_band_hopping).
+  For each enabled Band the scheduler will start to transmit at the corresponding Minute. This enables a global Network of WSPR Beacons to transmit at the same Time and on the same Band. The exact TX Frequency within the allocated WSPR segment/Band (200 Hz) is picked randomly by the Firmware. These coordinated Beacon Signals can then be decoded with WSJT-X and uploaded to the WSPRnet.org Database for further analysis.
 
   Hardware connections:
   --------------------------
@@ -11,80 +11,24 @@
   pin 8 is Red TX LED next to RF out SMA connector on the Desktop and LP1 products. Used as Indicator to display when there is RF out.
   pin A1 Hardware Sleep signal of the GPS on the WSPR-TX Pico, The Mini is using Serial command to put GPS to sleep.
   pin A3 Power-down the Si5351 from this pin on the WSPR-TX Mini
+  
+  Further details of the hardware can be found on this link: https://www.zachtek.com/1012
+
+  Usage Details:
+  1. Set board to "Arduino Pro or Pro Mini", set processor to ATMega328P(3.3V, 8MHZ)
+  2. Install library "NeoGPS by Slash Devin" you will find it in the library manager
+  3. Locate and modify the file NMEAGPS_cfg.h. it is part of the NeoGPS library and on a Windows computer it is usually in ..\Documents\Arduino\libraries\NeoGPS\src
+  4. In that file add the following lines and save it:
+      #define NMEAGPS_PARSE_GSV
+      #define NMEAGPS_PARSE_SATELLITE_INFO
+      #define NMEAGPS_PARSE_SATELLITES
 
 
-  Version History:
-  -------------------------------------
-  0.51 First Beta for Serial API
-  0.51 Expanded the Serial API and changed all information messages to {MIN} messages
-  0.52 [DGF] API updates will change SignalGen output freq if running.
-  0.54 Added TX status updates when sending  CCM status to improve the PC client display.
-  0.55 Added support for factory data in EEPROM, stores TCXO and hardware info.
-  0.56 Changed 80 TX freq to new standard of 3.570,100MHz
-  0.57 Split Firmware in to two separate version for the WSPR-TX_ LP1 and Desktop products and changed the "Product_Model" from Factory EEPROM data to constant
-  0.58 Fixed Frequency information output calculation errors when Freq=<1MHz
-  0.59 Fixed dim Red TX LED, (Pin was not set to output by setup routine)
-  0.60 Fixed wrong TX Freq on 10,12 and 15 Band
-  0.61 Added routines to Set and Get LP filters with factory data API [FLP]
-  0.62 Added functionality to automatically use one of the Low Pass filter in WSPR and SignalGen routines (New rutines - PickLP,SetLPFilter)
-  0.63 Changed Software Version and Revision to constants that can be read by the Serial API [FSV] and [FSR] and merged Firmware for LP1 and Desktop in one version again as they were before v0.57
-  0.64 Added function BandNumOfHigestLP to find the bandnumber of higest fitted LP filter, expanded on the PickLP filter routine
-  0.65 Fixed bug that forced Hardware Revision to 4
-  0.66 Fixed relay driving bug that affected Desktop transmitter with hardware revision higher than 4
-  0.67 Added support for relay driving the WSPR-TX_LP1 with the Mezzanine LP4 card that contains relays
-  0.68 Added support for manual override relay control over the Serial API and Relay update messages. ([CSL] command and {LPI} status message, shortened Start LED Blink
-  0.69 Added support for hardware WSPR-TX Mini 1021, added funtion readVcc() that returs Arduino Voltage, added PowerSave funtions save current on the Mini
-  0.70 Added power saving for the Mini, GPS turned off if TX pause is longer than a minute.
-  0.71 Corrected 2m Frequency, not in use but nice to have correct. Enabled PLL power saving for the Mini if TX pause is longer than a minute. Current draw for mini is: 40mA waiting to TX,  60mA TX,
-  0.72 Sends GPS updates when in Idle and Signal gen mode and when pausing in WSRP Beacon mode. Improved Serial port respons when pausing in WSPR Beacon mode,
-      On the Mini the GPS and the Si5351 is put to power save during long TX Pauses. Current draw is now arround 40 mA regardless if tranmitting or not.
-  0.73 Sends Satellite positions and their received SNR to the config program, changed to NeoGPS library
-  0.74 Improvement in GUI responsiveness when in WSPR Beacon. Additional power saving for the Mini, MCU goes to sleep if TX pause is longer than a minute.
-  0.75 Added MCU VCC Voltage info, added support for Pico model, Sends less GPS info in Idle mode
-  0.76 Added Support for WSPR-TX Pico, GPS position updates in idle and signal gen mode, status LED now fast blink during WSPR Beacon TX instead of steady lit
-      The Pico will always boot in to WSPR Beacon regardless of Boot configuration, this is a failsafe.
-      Moved check if Call Sign is set from SendWSPRBlock() to DoWSPR()
-  0.77 Changed around the orders of hardware check in Setup()
-  0.78 The WSPR Beacon will now stay in Beacon mode even if the user changed something in the PC GUI like changed bands, click Save button etc
-  0.79 Support the new Desktop V1R10 with new improved LP filters. Fixed TX Pause limit of 32000, it can now go to 99999 seconds (27.7 Hours)
-  0.80 Added routine FreqToBand () to improve signal generator filtering. The Signal Generator now picks the correct low pass filter instead of always using the highest one
-      Fixed smartdelay routine so it only transmitts status once a second to avoid Configuration GUI lockup du to excessive amount of data
-  0.81 Added Altitude encoding in the power field option.
-  0.82 Improved handling of serial data when in WSPR Beacon mode so it is less likely to exit the Beacon mode when serial API queries are sent from PC.
-      Slight improvment of the smartdelay routine
-  0.83 Only put the MCU to sleep in WSPR Beacon TX Pauses when the PC is not connected.
-      This ensures responsiveness in the PC GUI and avoid the misconseption that the device has hang during TX Pauses
-  0.84 Fixed Pico GPS Sleep functions so the GPS would restart properly in brown-out conditions.
-      Fixed so WSPR beacon goes back again after Serial API command is handled (A bug made the beacon go back only after a GPS fix, now goes back immediately even if no GPS fix)
-  0.85 Picos combined 20m and 30m lowpass filter correctly reported to PC program, Now the idle routine will reset an unresponsive GPS after some time. 0.84 did the same in when in the WSPR beacon mode
-  0.86 Improved the paus timming accuracy when the Mini or Pico is sleeping during long TX Pauses.
-  0.87 Small code optimization by replacing 0 prints with procedure calls, added I2CInit to Startup routine, Staus LED will bling every 5 seconds during TX Pause (if MCU is not going to sleep in case it will blink every 9 seconds(Only Mini and Pico))
-  0.88 Support for LP1 addon card BLP4, prod model #1029, adjusted Low passfilter calculation in FreqToBand ()
-  0.89 Fixed a bug that indicated 10-pole low pass filters for LP1 instead of the standard 7-pole in the DecodeSerialCMD routine.
-  0.90 Removed dependency on JTencode library by copying the needed code.
-  0.91 Adjust start of tranmission as the GPS data is a bit delayed, It will now start the transmission 1 second earlier leading to a lower "DT" number in WSJT-X
-  0.92 Includes Geo-Fencing for the Pico, will not transmit over restricted parts of the word
-  0.93 Modified GPSWakeUp routine to reset GPS on all models when waking up from sleep
-  0.94 Fixed bug that cased GPS reset after each transmission
-  0.95 WSPR Mini re-added after it had been removed by accident in an earlier version
-  0.96 Added support for Type 3 messages for increased position precision, changed altitude calculation for the Pico, if Type 3 messsage is sent then its pwr field corresponds to 20m per dB
-       Added autodetection of Si5351 I2C address, 96 or 98.
-  0.97 Changed how the [OBD] was Set/Get to avoid feedback llop in the PC GUI that would Set and then Clear a value repeatedly
-  1.00 Fixed a bug that cased Tpe 3 transmission even if was not configered to do that.
 
-  To compile :
-  1 set board to "Arduino Pro or Pro Mini", set processor to ATMega328P(3.3V, 8MHZ)
-  2 Install library "NeoGPS by Slash Devin" you will find it in the library manager
-  3 locate and modify the file NMEAGPS_cfg.h. it is part of the NeoGPS library and on a Windows computer it is usually in ..\Documents\Arduino\libraries\NeoGPS\src
-  4 in that file add the following lines and save it:
-   #define NMEAGPS_PARSE_GSV
-   #define NMEAGPS_PARSE_SATELLITE_INFO
-   #define NMEAGPS_PARSE_SATELLITES
-
-  //Harry
+19/5/21 WSPRBeacon 1.0 based on WSPR 1.0: Changed the condition of if statement in DoWSPR() function, line 1163 from GPSM % 2 to a boolean equation based on the conditions from WSPR Band hopping TX schedule.
 */
 
-const uint8_t  SoftwareVersion = 1; //0 to 255. 0=Beta
+const uint8_t  SoftwareVersion = 10; //0 to 255. 0=Beta
 const uint8_t  SoftwareRevision = 0; //0 to 255
 
 // Product model. WSPR-TX_LP1                             =1011
@@ -507,10 +451,7 @@ void setup()
   pinMode(StatusLED, OUTPUT);
   pinMode(TransmitLED, OUTPUT);
 
-  Serial.print(F("{MIN} Firmware version "));
-  Serial.print(SoftwareVersion);
-  Serial.print(("."));
-  Serial.println(SoftwareRevision);
+  Serial.print(F("{MIN} Firmware version 1.0 BeaconMode"));
 
   //Blink StatusLED to indicate Reboot
   LEDBlink(16);
