@@ -1,6 +1,6 @@
 # WSPRBeacon
 
-#### Status: Custom Firmware is finished. If you want a copy se me an [e-mail](mailto:atomic@gmx.net)
+#### Status: Custom Firmware is finished. If you want a copy send me an [e-mail](mailto:atomic@gmx.net)
 
 Custom Arduino Firmware for the [Zachtek WSPR Desktop Transmitter](https://www.zachtek.com/1012).
 This Firmware extends the factory functionality by adding a coordinated WSPR Band hopping transmit schedule following the [WSJT-X implementation](https://www.physics.princeton.edu/pulsar/K1JT/wsjtx-doc/wsjtx-main-2.3.0.html#_band_hopping)
