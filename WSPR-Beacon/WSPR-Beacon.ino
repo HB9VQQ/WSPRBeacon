@@ -451,7 +451,10 @@ void setup()
   pinMode(StatusLED, OUTPUT);
   pinMode(TransmitLED, OUTPUT);
 
-  Serial.print(F("{MIN} Firmware version 1.0 BeaconMode"));
+  Serial.print(F("{MIN} Firmware version "));
+  Serial.print(SoftwareVersion);
+  Serial.print(("."));
+  Serial.println(SoftwareRevision);
 
   //Blink StatusLED to indicate Reboot
   LEDBlink(16);
