@@ -55,3 +55,9 @@ Focus Regions for such Beacons are:
 - Any other interesting Region
 
 Please [drop me a line](mailto:atomic@gmx.net) if you are interested to run a permanent WSPR Beacon and want to participate in the International WSPR Beacon Project.
+
+#### Projet Milestones
+
+May-17 2021 Project kick off
+May-20 2021 Custom Arduino Firmware finished. PoC successful
+
