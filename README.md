@@ -24,7 +24,7 @@ To identify and visualize weak Signal Propagation paths to study global Ham Radi
 
 Goal is to establish a global Network of permanently installed, standardized, easy to operate, inexpensive and self-contained WSPR Beacons running 24x7x365, sharing the same or a very similar Setup:
 
-- Omni directional Antenna (vert. EFHW, Multiband GP etc.)
+- **Omni directional Antenna** (vert. EFHW, Multiband GP etc.)
 - Same RF Power (200 mW)
 - Same transmission schedule
 - Same Band coverage
