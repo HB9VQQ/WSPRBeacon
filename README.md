@@ -27,7 +27,7 @@ Goal is to establish a global Network of permanently installed, standardized, ea
 - **Omni directional Antenna** (vert. EFHW, Multiband GP etc.)
 - Same RF Power (200 mW)
 - Same transmission schedule
-- Same Band coverage
+- Same Band coverage **(at least 80,40,20,15 and 10m)**
 
 Ready-to-use self-contained (No PC required) WSPR Beacon Transmitters covering the 80,40,30,20,15,12 and 10m Band and running the special Beacon Firmware should be available by the End of June 2021 (limited quantity). These Transmitters are purpose built devices for the WSPRBeacon Project by Harry @Zachtek and are not available off-the-shelf with the indicated Band coverage. Power output ~200mW. Estimated cost per Device incl. installed Beacon Firmware, USB cable and GPS Antenna < 200 Euro.
 
