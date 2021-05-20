@@ -1,4 +1,4 @@
-# WSPRBeacon
+# Intl. WSPR Beacon Project
 
 #### Status: Custom Firmware is finished. Hardware in production, accepting Pre-orders
 
