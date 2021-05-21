@@ -14,7 +14,7 @@ For each enabled Band the scheduler will start to transmit at the corresponding 
 
 
 These coordinated Beacon Signals can then be decoded with WSJT-X (automated Band-Hopping) and uploaded to the [WSPRnet.org](https://wsprnet.org/drupal/) Database for further analysis.
- [Link to a Video](https://www.youtube.com/watch?v=vloVXac17Ss) showing the WSPR Beacon with the custom Firmware in Action.
+ [Link to a Video](https://www.youtube.com/watch?v=vloVXac17Ss) showing the WSPR Beacon with the custom Firmware in Action (showing PC Software just  for demo purpose). Beacon runs headless, no PC needed.
 
 ### Why?
 
