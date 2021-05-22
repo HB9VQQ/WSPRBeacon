@@ -34,7 +34,7 @@ Applications from HAM Radio Clubs will be preferred over individuals.
 
 ### What is required to participate?
 
-- Omnidirectional Antenna for the 80,40,20,15 and 10m Band ([Endfed Halwave](https://www.hyendcompany.nl/antenna/multiband_8040201510m/product/detail/3/HyEndFed_5_Band_Black_Clamp_MK3#prod)
+- Omnidirectional Antenna for the 80,40,20,15 and 10m Band ([Endfed Halwave](https://www.hyendcompany.nl/antenna/multiband_8040201510m/product/detail/3/HyEndFed_5_Band_Black_Clamp_MK3#prod), [DX Commander](https://www.m0mcx.co.uk/store/products/multi-band-80m-6m-hf-antenna-p-ale-compliant-antenna-survival-prep-sota-kit/) or similar Multiband Antenna
 
 ### Cost ?
 
