@@ -32,6 +32,10 @@ Goal is to establish a global Network of 20-30 permanently installed, standardiz
 
 Applications from HAM Radio Clubs will be preferred over individuals.
 
+### What is required to participate?
+
+- Omnidirectional Antenna for the 80,40,20,15 and 10m Band ([Endfed Halwave](https://www.hyendcompany.nl/antenna/multiband_8040201510m/product/detail/3/HyEndFed_5_Band_Black_Clamp_MK3#prod)
+
 ### Cost ?
 
 Ready-to-use self-contained **(No PC/No Internet required)** WSPR Beacon Transmitters covering the 80,40,30,20,15,12 and 10m Band running the special Beacon Firmware should be available by the End of June 2021 (limited quantity). These Transmitters are purpose built devices for the WSPR Beacon Project by Harry @Zachtek and are not available off-the-shelf with the indicated Band coverage. Power output ~200mW. Power usage: 5V (USB) max. 250mA. Estimated cost per Device incl. Beacon Firmware, USB cable and GPS Antenna < 200 Euro (not including postage).
