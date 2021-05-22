@@ -22,7 +22,7 @@ To identify and visualize weak Signal Propagation paths to study global Ham Radi
 
 ### How?
 
-Goal is to establish a global Network of 20-30 permanently installed, standardized, easy to operate, inexpensive and self-contained WSPR Beacons running 24x7x365 at strategic locations sharing the same or a very similar Setup:
+Goal is to establish a global Network of 20-30 permanently installed, standardized, easy to operate, inexpensive and self-contained WSPR Beacons running **24x7x365** at strategic locations sharing the same or a very similar Setup:
 
 - **Omni directional Antenna** (vert. EFHW, Multiband GP etc.)
 - RF Power 200 mW
