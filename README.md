@@ -28,7 +28,7 @@ Goal is to establish a global Network of permanently installed, standardized, ea
 - RF Power 200 mW
 - Same transmission schedule
 - Same Band coverage **(at least 80,40,20,15 and 10m)**
-- **Permission from local authorities to run an unattended Beacon Transmitter** -> We need a positive confirmation on that
+- **Permission from local authorities to run an unattended Beacon Transmitter** -> We need positive confirmation on that
 
 ### Cost ?
 
