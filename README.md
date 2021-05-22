@@ -57,7 +57,7 @@ Focus Regions for such Beacons are:
 - USA west coast
 - Any other interesting Region
 
-Please [drop me a line](mailto:atomic@gmx.net) if you are interested to run a permanent WSPR Beacon and want to participate in the International WSPR Beacon Project.
+Please [drop me a line](mailto:atomic@gmx.net) if you are interested to run a permanent WSPR Beacon and want to participate in the International WSPR Beacon Project. Include the phrase "Beacons are cool" in your email, this way I know you have read this page :-)
 
 #### Project Milestones
 
