@@ -72,5 +72,5 @@ Please [drop me a line](mailto:atomic@gmx.net) if you are interested to run a pe
 - May-17 2021 Project kick off
 - May-19 2021 Custom Arduino Firmware finished. PoC successful
 - May-20 2021 Placed order for first batch of custom built WSPR Transmitters
-- May-22 2021 Starting to onboard HAM Radio Clubs and individual WSPRer around the globe. Pls help to spread the Word, TU!
+- May-22 2021 Started to onboard HAM Radio Clubs and individual WSPRer around the globe. Pls help to spread the Word, TU!
 
