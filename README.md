@@ -8,7 +8,7 @@ This Firmware extends the factory functionality by adding a coordinated WSPR Ban
 
 ![image](https://user-images.githubusercontent.com/75934980/118491568-6cabce00-b71f-11eb-9634-eb7d8e3a8a85.png)
 
-For each enabled Band the scheduler will start to transmit at the corresponding Minute. This enables a global Network of WSPR Beacons to transmit at the same Time and on the same Band. The exact TX Frequency within the allocated WSPR segment/Band (200 Hz) is picked randomly by the Firmware. Here is a screenshot
+For each enabled Band the scheduler will start to transmit at the corresponding Minute. This enables a global Network of WSPR Beacons to transmit on the same Band at the same time. The exact TX Frequency within the allocated WSPR segment/Band (200 Hz) is picked randomly by the Firmware. Here is a screenshot
 
 ![image](https://user-images.githubusercontent.com/75934980/118852891-7bd37d00-b8d3-11eb-9f1d-f38a72d42085.png)
 
