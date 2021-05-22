@@ -30,6 +30,8 @@ Goal is to establish a global Network of 20-30 permanently installed, standardiz
 - Same Band coverage **(at least 80,40,20,15 and 10m)**
 - **Permission from local authorities to run an unattended Beacon Transmitter** -> We need positive confirmation on that
 
+Applications from HAM Radio Clubs will be preferred over individuals.
+
 ### Cost ?
 
 Ready-to-use self-contained **(No PC required)** WSPR Beacon Transmitters covering the 80,40,30,20,15,12 and 10m Band running the special Beacon Firmware should be available by the End of June 2021 (limited quantity). These Transmitters are purpose built devices for the WSPR Beacon Project by Harry @Zachtek and are not available off-the-shelf with the indicated Band coverage. Power output ~200mW. Estimated cost per Device incl. Beacon Firmware, USB cable and GPS Antenna < 200 Euro (not including postage).
