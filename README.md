@@ -35,7 +35,7 @@ Goal is to establish a global Network of 20-30 permanently installed, standardiz
 - Vertical omnidirectional Antenna for the 80,40,20,15,10m Band ([Endfed Halfwave](https://www.hyendcompany.nl/antenna/multiband_8040201510m/product/detail/3/HyEndFed_5_Band_Black_Clamp_MK3#prod), [DX Commander](https://www.m0mcx.co.uk/store/products/multi-band-80m-6m-hf-antenna-p-ale-compliant-antenna-survival-prep-sota-kit/) or similar Multiband Antenna)
 - Beacon needs to be run 24x7x365 (minus maintenance time)
 - Our custom built WSPR Beacon Transmitter
-- **Permission from local authorities to run an unattended Beacon Transmitter** -> The Beacon OP is responsible to follow the local regulations
+- **The Beacon Operator is responsible to follow the local regulations in regards of unattended automatic Transmitters**
 
 Applications from HAM Radio Clubs will be preferred over individuals.
 
