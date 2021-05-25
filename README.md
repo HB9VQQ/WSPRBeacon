@@ -66,7 +66,7 @@ Focus Regions for such Beacons are:
 - USA west coast (sipping cost 21 USD)
 - Any other interesting Region
 
-Please [drop me a line](mailto:atomic@gmx.net) if you fully comply with the above mentioned requirements and if you want to participate in the International WSPR Beacon Project. Include the phrase "Beacons are cool" in your email, this way I know you have read this page :-)
+Please [drop me a line](mailto:atomic@gmx.net) if you fully comply with the above mentioned [requirements](https://github.com/HB9VQQ/WSPRBeacon/blob/main/README.md#what-is-required-to-participate) and if you want to participate in the International WSPR Beacon Project. Include the phrase "Beacons are cool" in your email, this way I know you have read this page :-)
 
 #### Project Milestones
 
