@@ -68,8 +68,6 @@ Focus Regions for such Beacons are:
 
 Please [drop me a line](mailto:atomic@gmx.net) if you fully comply with the above mentioned [requirements](https://github.com/HB9VQQ/WSPRBeacon/blob/main/README.md#what-is-required-to-participate) and if you want to participate in the International WSPR Beacon Project. Include the phrase "Beacons are cool" in your email, this way I know you have read this page :-)
 
-[Curreent candidate Map](https://www.google.com/maps/d/u/1/edit?mid=14X0GJ4vSQ7D8piZfuHDs902Y9tINuPqB&usp=sharing)
-
 #### Project Milestones
 
 - May-17 2021 Project kick off
