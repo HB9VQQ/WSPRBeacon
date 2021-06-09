@@ -70,8 +70,8 @@ Focus Regions for such Beacons are:
 
 Please [drop me a line](mailto:atomic@gmx.net) if you fully comply with the above mentioned [requirements](https://github.com/HB9VQQ/WSPRBeacon/blob/main/README.md#what-is-required-to-participate) and if you want to participate in the International WSPR Beacon Project. Answer the following questions in your email:
 
-* What is the Beacon callsign you'll be using?
-- What is the exact Beacon location?
+1. What is the Beacon callsign you'll be using?
+2. What is the exact Beacon location?
 - What Antenna will you be using
 - Will the Antenna cover 80,40,20,15 and 10m Band with an SWR < 2:1?
 - Do you agree to run the Beacon 24x7x365 (Best effort)?
