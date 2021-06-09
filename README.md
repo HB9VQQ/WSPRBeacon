@@ -74,6 +74,7 @@ Please [drop me a line](mailto:atomic@gmx.net) if you fully comply with the abov
 - What is the exact Beacon location?
 - What Antenna will you be using
 - Will the Antenna cover 80,40,20,15 and 10m Band with an SWR < 2:1?
+- Do you agree to run the Beacon 24x7x365 (Best effort)?
 
 #### Project Milestones
 
