@@ -36,7 +36,7 @@ Goal is to establish a global Network of 20-30 permanently installed, standardiz
 - Type 1 Callsign as explained here [WSPR Messages explained](https://www.dxplorer.net/wspr/msgtypes.html) Type 2 or Type 3 won't work
 - Vertical omnidirectional Antenna for the 80,40,20,15,10m Band ([Endfed Halfwave](https://www.hyendcompany.nl/antenna/multiband_8040201510m/product/detail/3/HyEndFed_5_Band_Black_Clamp_MK3#prod), [DX Commander](https://www.m0mcx.co.uk/store/products/multi-band-80m-6m-hf-antenna-p-ale-compliant-antenna-survival-prep-sota-kit/), [Comet CHA-250B](https://cometantenna.com/wp-content/uploads/2013/09/CHA-250B_instructions.pdf), [Butternut HF6V](https://static.dxengineering.com/global/images/instructions/but-hf6v.pdf) or similar Multiband Antenna)
 - Beacon needs to be run 24x7x365 (minus maintenance time)
-- Our custom built WSPR Beacon Transmitter (incl. LPF's for the 80,40,30,20,15,12 and 10m Band)
+- Our custom built WSPR Beacon Transmitter (incl. LPF's for the 80,40,30,20,17,15,12 and 10m Band)
 - **The Beacon Operator is responsible to follow the local regulations in regards of unattended automatic Transmitters**
 
 Applications from HAM Radio Clubs will be preferred over individuals.
