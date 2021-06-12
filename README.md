@@ -28,7 +28,7 @@ Goal is to establish a global Network of 20-30 permanently installed, standardiz
 
 - **Omni directional Antenna** (vert. EFHW, Multiband GP etc.)
 - RF Power 200 mW
-- Same transmission schedule
+- Same transmission schedule (following WSJT-X Band-hopping)
 - Same Band coverage **(at least 80,40,20,15 and 10m)**
 
 ### What is required to participate?
