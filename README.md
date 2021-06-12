@@ -53,7 +53,7 @@ Please [drop me a line](mailto:atomic@gmx.net) if you fully comply with the abov
 1. What is the Beacon callsign you'll be using?
 2. What is the planned Beacon location?
 3. What Antenna will be used for the Beacon?
-4. Will the Antenna cover 80,40,20,15 and 10m Band with an SWR < 2:1?
+4. Will the Antenna cover at least 80,40,20,15 and 10m Band with an SWR < 2:1?
 5. Do you agree to run the Beacon 24x7x365 (Best effort)?
 6. HAM Radio Club or individual?
 
