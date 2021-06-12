@@ -48,26 +48,6 @@ Ready-to-use self-contained **(No PC/No Internet required)** WSPR Beacon Transmi
 ![image](https://user-images.githubusercontent.com/75934980/118846833-665b5480-b8cd-11eb-8c84-0a258b85ec0d.png)
 
 
-Focus Regions for such Beacons are:
-
-- Alaska (shipping cost 21 USD)
-- Australia (shipping cost 26 AUD)
-- Canada (shipping cost 25 CAD)
-- Central Europe (shipping Cost 9 Euros)
-- Hawaii (shipping cost 21 USD)
-- Iceland (shipping cost 1250 ISK)
-- India
-- Japan (shipping cost 2.2 JPY)
-- New Zealand (shipping cost 28 NZD)
-- Asiatic Russia
-- Scandinavia (11 USD)
-- South Africa (shipping cost 280 ZAR)
-- South America (shipping cost 21 USD)
-- UAE (shipping cost 74 AED)
-- USA east coast (shipping cost 21 USD)
-- USA west coast (sipping cost 21 USD)
-- Any other interesting Region
-
 Please [drop me a line](mailto:atomic@gmx.net) if you fully comply with the above mentioned [requirements](https://github.com/HB9VQQ/WSPRBeacon/blob/main/README.md#what-is-required-to-participate) and if you want to participate in the Intl. WSPR Beacon Project. Please answer these six questions in your email:
 
 1. What is the Beacon callsign you'll be using?
