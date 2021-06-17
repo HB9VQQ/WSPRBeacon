@@ -1,6 +1,6 @@
 # Intl. WSPR Beacon Project
 
-#### Status: Custom Firmware is finished. Hardware in production
+#### Status: Global Beacon deployment in Progress
 [Beacon Install Guide](https://docs.google.com/document/d/1nfN_jRqq9-nsfkYHM_3KrRoq1a5RWeYCly9_mQI3QVw/edit?usp=sharing)
 
 [Current candidate Map](https://www.google.com/maps/d/u/1/edit?mid=14X0GJ4vSQ7D8piZfuHDs902Y9tINuPqB&usp=sharing)
