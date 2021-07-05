@@ -68,5 +68,5 @@ Please [drop me a line](mailto:atomic@gmx.net) if you fully comply with the abov
 - May-20 2021 Placed order for first batch of custom built WSPR Transmitters
 - May-22 2021 Started to onboard HAM Radio Clubs and individual WSPRer around the globe
 - June-19 2021 Beacon #1 shipped to Milan, Italy IU2PJI Politecnico Milano - Pilot installation
-- June-28 2021 Beacon #1 IU2PJI has been put ON AIR !
+- June-28 2021 Beacon #1 IU2PJI ON AIR !
 
