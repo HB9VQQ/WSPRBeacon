@@ -44,7 +44,7 @@ Applications from HAM Radio Clubs will be preferred over individuals.
 
 ### Cost ?
 
-Ready-to-use self-contained **(No PC/No Internet required)** WSPR Beacon Transmitters covering the 80,40,30,20,17,15,12 and 10m Band running our special Beacon Firmware will be provided by the Project (limited quantity). These Transmitters are purpose built devices for the WSPR Beacon Project by Harry @Zachtek and are not available off-the-shelf with the indicated Band coverage. Power output ~200mW. Power usage: 5V (USB) max. 250mA. The cost of the Beacon Transmitter Hardware is sponsored by the Project, you just need to cover the postage fee and your local custom duties if any. **Potential candidates for a free Hardware will be selected very carefully to achieve the best possible global coverage.**
+Ready-to-use self-contained **(No PC/No Internet required)** WSPR Beacon Transmitters covering the 80,40,30,20,17,15,12 and 10m Band running our special Beacon Firmware will be provided by the Project (limited quantity). These Transmitters are purpose built devices for the WSPR Beacon Project by Harry @Zachtek and are not available off-the-shelf with the indicated Band coverage. Power output ~200mW. Power usage: 5V (USB) max. 250mA. The cost of the Beacon Transmitter Hardware is sponsored by the Project, you just need to cover the postage fee and your local custom duties if any. **Potential candidates for a free WSPR Hardware will be selected very carefully to achieve the best possible global coverage.**
 
 ![image](https://user-images.githubusercontent.com/75934980/118846833-665b5480-b8cd-11eb-8c84-0a258b85ec0d.png)
 ![image](https://user-images.githubusercontent.com/75934980/124916888-74874080-dff3-11eb-968b-ab4a81847612.png)
