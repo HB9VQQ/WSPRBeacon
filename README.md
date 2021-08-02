@@ -2,9 +2,8 @@
 
 #### Status: Global Beacon deployment in Progress
 
-[Live operational Beacon status](https://wspr.live/gui/d/mgTznmeMz/beacon-stations?orgId=1&refresh=5m)
-
-[Forum on Groups.io](https://groups.io/g/wsprbeacon)
+- [Live operational Beacon status](https://wspr.live/gui/d/mgTznmeMz/beacon-stations?orgId=1&refresh=5m)
+- [Forum on Groups.io](https://groups.io/g/wsprbeacon)
 
 [Beacon Map](https://www.google.com/maps/d/u/1/edit?mid=14X0GJ4vSQ7D8piZfuHDs902Y9tINuPqB&usp=sharing)
 
