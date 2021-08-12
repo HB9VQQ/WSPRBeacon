@@ -8,7 +8,8 @@
 - [Beacon Install Guide](https://docs.google.com/document/d/1nfN_jRqq9-nsfkYHM_3KrRoq1a5RWeYCly9_mQI3QVw/edit?usp=sharing)
 
 Custom Arduino Firmware for the [Zachtek WSPR Desktop Transmitter](https://www.zachtek.com/1012).
-This Firmware extends the factory functionality by adding a coordinated WSPR Band hopping transmit schedule following the [WSJT-X implementation](https://www.physics.princeton.edu/pulsar/K1JT/wsjtx-doc/wsjtx-main-2.3.0.html#_band_hopping)
+This Firmware extends the factory functionality by adding a coordinated WSPR Band hopping transmit schedule following the [WSJT-X implementation]
+![image](https://user-images.githubusercontent.com/75934980/129144778-0a6d4e5c-177b-4959-af50-68d9b2e165c9.png)
 
 ![image](https://user-images.githubusercontent.com/75934980/118491568-6cabce00-b71f-11eb-9634-eb7d8e3a8a85.png)
 
