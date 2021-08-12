@@ -10,7 +10,7 @@
 Custom Arduino Firmware for the [Zachtek WSPR Desktop Transmitter](https://www.zachtek.com/1012).
 This Firmware extends the factory functionality by adding a coordinated WSPR Band hopping transmit schedule following the [WSJT-X implementation](https://www.physics.princeton.edu/pulsar/K1JT/wsjtx-doc/wsjtx-main-2.3.0.html#_band_hopping)
 
-![image](https://user-images.githubusercontent.com/75934980/129145369-51675440-434d-4804-8ea1-ea8cbc1917d6.png)
+![image](https://user-images.githubusercontent.com/75934980/129145671-713424ba-ba92-4a9c-94c3-30234165c626.png)
 
 
 For each enabled Band the scheduler will start to transmit at the corresponding Minute. This enables a global Network of WSPR Beacons to transmit on the same Band at the same time. The exact TX Frequency within the allocated WSPR segment/Band (200 Hz) is picked randomly by the Firmware. Here is a screenshot
