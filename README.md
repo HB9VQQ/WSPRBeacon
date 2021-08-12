@@ -1,4 +1,4 @@
-# Intl. WSPR Beacon Project
+# International WSPR Beacon Project
 
 #### Status: Global Beacon deployment in Progress
 
