@@ -60,7 +60,7 @@ Please [drop me a line](mailto:atomic@gmx.net) if you fully comply with the abov
 
 1. What is the Beacon callsign you'll be using?
 2. What is the planned Beacon location?
-3. What Antenna will be used for the Beacon?
+3. What Antenna will be used for the Beacon (Make and Model?
 4. Is the Antenna installed as a vertical omni directional?
 5. Will the Antenna cover at least 80,40,20,15 and 10m Band with an SWR < 2:1?
 6. Do you agree to run the Beacon 24x7x365 (Best effort)?
