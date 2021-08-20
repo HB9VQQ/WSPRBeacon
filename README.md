@@ -56,7 +56,7 @@ Ready-to-use self-contained **(No PC/No Internet required)** WSPR Beacon Transmi
 
 #### Apply for participation
 
-Please [drop me a line](mailto:atomic@gmx.net) if you fully comply with the above mentioned [requirements](https://github.com/HB9VQQ/WSPRBeacon/blob/main/README.md#what-is-required-to-participate) and you are not closer than 2000km to an exisitng Beacon if you want to participate in the Intl. WSPR Beacon Project. Please answer these seven questions in your email:
+Please [drop me a line](mailto:atomic@gmx.net) if you fully comply with the above mentioned [requirements](https://github.com/HB9VQQ/WSPRBeacon/blob/main/README.md#what-is-required-to-participate) and if you want to participate in the Intl. WSPR Beacon Project. Please answer these seven questions in your email:
 
 1. What is the Beacon callsign you'll be using?
 2. What is the planned Beacon location?
