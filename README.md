@@ -75,4 +75,4 @@ Please [drop me a line](mailto:atomic@gmx.net) if you fully comply with the abov
 - June-19 2021 Beacon #1 shipped to Milan, Italy IU2PJI Politecnico Milano - Pilot installation
 - June-28 2021 Beacon #1 IU2PJI ON AIR !
 - July-17 2021 18 Beacons shipped, 4 operational
-- August-17 2021 11 Beacons operational
+- August-17 2021 11 Beacon operational
