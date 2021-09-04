@@ -40,7 +40,7 @@ Goal is to establish a global Network of 40 permanently installed, standardized,
 - Type 1 Callsign like HB9VQQ (max. 6 characters) as explained here [WSPR Messages explained](https://www.dxplorer.net/wspr/msgtypes.html) Type 2 or Type 3 won't work
 - Vertical omnidirectional Antenna covering at least 80,40,20,15,10m Band ([Endfed Halfwave](https://www.hyendcompany.nl/antenna/multiband_8040201510m/product/detail/3/HyEndFed_5_Band_Black_Clamp_MK3#prod), [DX Commander](https://www.m0mcx.co.uk/store/products/multi-band-80m-6m-hf-antenna-p-ale-compliant-antenna-survival-prep-sota-kit/), [GAP DX Titan](http://gapantenna.com/shop/antennas/titan-dx/), [Butternut HF6V](https://static.dxengineering.com/global/images/instructions/but-hf6v.pdf) or similar Multiband Antenna)
 - Willingness to run the Beacon 24x7x365 (Best effort)
-- Our custom built WSPR Beacon Transmitter with LPFs for the 80,40,30,20,17,15,12 and 10m Band or Zachtek 80to10 WSPR Desktop
+- Zachtek 80to10 WSPR Desktop Transmitter
 - **The Beacon Operator is responsible to follow the local regulations in regards of unattended automatic Transmitters**
 
 Applications from HAM Radio Clubs will be preferred over individuals.
