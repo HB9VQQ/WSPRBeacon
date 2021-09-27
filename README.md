@@ -24,7 +24,7 @@ These coordinated Beacon Signals can then be decoded by WSJT-X (automated Band-H
 
 ### Why?
 
-To identify and visualize weak Signal Propagation paths to study global Ham Radio HF Propagation for the interested audience by collecting consistent WSPR Data from standardized Beacon Transmitters over an extended period of time like years. Inspired by the NCDXF CW Beacon Project.
+To identify and visualize weak Signal Propagation paths to study global Ham Radio HF Propagation for the interested audience by collecting **consistent** WSPR Data from standardized Beacon Transmitters over an extended period of time like years. Inspired by the NCDXF CW Beacon Project.
 
 ### How?
 
