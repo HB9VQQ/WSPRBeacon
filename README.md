@@ -76,3 +76,4 @@ Please [drop me a line](mailto:atomic@gmx.net) if you fully comply with the abov
 - June-28 2021 Beacon #1 IU2PJI ON AIR !
 - July-17 2021 18 Beacons shipped, 4 operational
 - August-17 2021 11 Beacon operational
+- October-24 2021 First Band hopping WSPR Monitor alive @HP1COO
