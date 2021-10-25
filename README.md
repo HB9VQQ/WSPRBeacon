@@ -1,4 +1,4 @@
-# International WSPR Beacon Project
+# International WSPR Beacon Project - Phase I
 
 #### Status: Global Beacon deployment in Progress - Establishing world's largest HF Beacon Network
 
