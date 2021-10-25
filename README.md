@@ -74,6 +74,8 @@ The global distribution of permanent WSPR receive sites concentrates mainly on t
 
 The details of the WSPR Monitor System is currently being worked out. For now it consists of an Airspy HF+ Discovery and a Raspberry Pi running a customized OS image, tailored for the WSPR Monitor. A description can be found [here](https://docs.google.com/document/d/e/2PACX-1vQwBbkGgE0oMXaGkVrAFNZtFjnylsCQre2WHf2CIEDpuUj8EZDj8jMv2VJoJ-nuQoM-AH1lTd7GsYEq/pub).
 
+The WSPR RX Monitor will follow the Band hop schedule of our WSPR Beacons. They will be in sync with our WSPR Transmitters and upload all decoded WSPR signals to the central Database at wsprnet.org.
+
 #### Project Milestones
 
 - May-17 2021 Project kick off
