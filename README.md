@@ -68,6 +68,9 @@ Please [drop me a line](mailto:atomic@gmx.net) if you fully comply with the abov
 
 # International WSPR RX Monitor Project - Phase II
 
+#### Status: Field Test of WSPR RX Monitor @HP1COO
+
+
 #### Project Milestones
 
 - May-17 2021 Project kick off
