@@ -76,6 +76,15 @@ The details of the WSPR Monitor System is currently being worked out. For now it
 
 The WSPR RX Monitor will follow the Band hop schedule of our WSPR Beacons. They will be in sync with our WSPR Transmitters and upload all decoded WSPR signals to the central Database at wsprnet.org.
 
+#### Requirements
+- **RF quiet QRM free Location**
+- Airspy HF+ Discovery
+- Raspberry Pi3 or 4
+- Internet connection
+- Prefrerred: omni-directional resonant Antenna on **80,40,20,15 and 10m**
+
+The customized WSPR OS image for the RPi will be provided by the Project once Registration is completed.
+
 #### Project Milestones
 
 - May-17 2021 Project kick off
