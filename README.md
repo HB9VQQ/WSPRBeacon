@@ -66,6 +66,8 @@ Please [drop me a line](mailto:atomic@gmx.net) if you fully comply with the abov
 6. Do you agree to run the Beacon 24x7x365 (Best effort)?
 7. HAM Radio Club or individual?
 
+# International WSPR RX Monitor Project - Phase II
+
 #### Project Milestones
 
 - May-17 2021 Project kick off
