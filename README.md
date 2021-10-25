@@ -54,7 +54,7 @@ Ready-to-use self-contained **(No PC/No Internet required)** WSPR Beacon Transmi
 ![image](https://user-images.githubusercontent.com/75934980/124916917-7e10a880-dff3-11eb-83cc-a77a34de6b59.png)
 
 
-#### Apply for participation
+#### Apply for participation to become a WSPR Beaconer
 
 Please [drop me a line](mailto:atomic@gmx.net) if you fully comply with the above mentioned [requirements](https://github.com/HB9VQQ/WSPRBeacon/blob/main/README.md#what-is-required-to-participate) and if you want to participate in the Intl. WSPR Beacon Project. Please answer these seven questions in your email:
 
