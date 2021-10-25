@@ -76,7 +76,7 @@ The details of the WSPR Monitor System is currently being worked out. For now it
 
 The WSPR RX Monitor will follow the Band hop schedule of our WSPR Beacons. They will be in sync with our WSPR Transmitters and upload all decoded WSPR signals to the central Database at wsprnet.org.
 
-#### Requirements
+#### WSPR Monitor Requirements
 - **RF quiet QRM free Location**
 - Airspy HF+ Discovery
 - Raspberry Pi3 or 4
