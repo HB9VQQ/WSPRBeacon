@@ -70,6 +70,7 @@ Please [drop me a line](mailto:atomic@gmx.net) if you fully comply with the abov
 
 #### Status: Field Test of WSPR RX Monitor @HP1COO
 
+The global distribution of permanent WSPR receive sites concentrates mainly on the US and central Europe. Outside of these regions there are many dark Spots. This is cleary visible in this [Time lapse Vdeo](https://youtu.be/DwP9e7xMAVY) taken on August-6 2021.
 
 #### Project Milestones
 
