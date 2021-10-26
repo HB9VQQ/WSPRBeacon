@@ -33,3 +33,4 @@ ID,Call,Locator,lat,lon,hagl in m (Top of Ant.),hamsl in m,Power,ant gain max,An
 33,ZS6MRK,KG44dh,-25.76208,28.30852,,1367,23dBm,,Butternut HF9V or EFHW,
 34,CE7UPK,FE34tm,-45.46028,-72.36339,10,63,23dBm,1 dBi,MFJ 1982-LP ,
 35,ZD9SSS,IE59bp,-40.34932,-9.88031,,400,23dBm,0 dBi,"Webb FST 2,5 to 30MHz",
+36,M0JUJ,IO90lu,50.84697,-1.07477,9,2,23dBm,1 dBi,EFHW 5 Band vertical/inverted L,
