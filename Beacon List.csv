@@ -1,7 +1,7 @@
 ID,Call,Locator,lat,lon,hagl in m (Top of Ant.),hamsl in m,Power,ant gain max,Antenna,
 1,IU2PJI,JN45rj,45.41342,9.49426,10,84,23dBm,7 dBi,Skyloop 80-10,
 2,VK8MA,PH65dm,-14.467054,132.260461,11,110,23dBm,2 dBi,Comet 250B,https://w0qlremotebase.wordpress.com/2016/03/29/a-look-at-the-comet-cha250b-antenna/
-3,EX0DX,MN72gu,42.853333,74.54,8,777,23dBm,1 dBi,EFHW 5 Band vertical/inverted L,
+3,EX0DX,MN72gu,42.853333,74.54,8,777,23dBm,1 dBi,Foxtell FOXCAMP 2020,
 4,PY1IFF,GG97bo,-22.40514,-41.84387,10,22,23dBm,1 dBi,EFHW 5 Band vertical/inverted L,
 5,ZS1WRC,JF95ON,-34.42413,19.22485,12,24,23dBm,0 dBi,"Webb FST 2,5 to 30MHz",
 6,KL2R,BP64ku,64.853333,-147.126667,,175,23dBm,0 dBi,Homebrew Trap Vertical,
@@ -33,4 +33,5 @@ ID,Call,Locator,lat,lon,hagl in m (Top of Ant.),hamsl in m,Power,ant gain max,An
 33,ZS6MRK,KG44dh,-25.76208,28.30852,,1367,23dBm,,Butternut HF9V or EFHW,
 34,CE7UPK,FE34tm,-45.46028,-72.36339,10,63,23dBm,1 dBi,MFJ 1982-LP ,
 35,ZD9SSS,IE59bp,-40.34932,-9.88031,,400,23dBm,0 dBi,"Webb FST 2,5 to 30MHz",
-36,M0JUJ,IO90lu,50.84697,-1.07477,9,2,23dBm,1 dBi,EFHW 5 Band vertical/inverted L,
+36,M0JUJ,IO90lu,50.84697,-1.07477,9,2,23dBm,1 dBi,EFHW 5 Band vertical/inverted L,Using his own 80to10 Transmitter
+37,VK6XT,OF86td,-33.862647,117.643168,19,,23dBm,1 dBi,EFHW 8 Band,
