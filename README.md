@@ -80,7 +80,7 @@ The WSPR RX Monitor will follow the Band hop schedule of our WSPR Beacons. They 
 - **RF quiet QRM free Location**
 - WSPR Monitor location **outside US and central EU**
 - Airspy HF+ Discovery
-- Raspberry Pi3 or 4
+- Raspberry Pi 3B+ or 4, 16GB SD card
 - Internet connection
 - Preferred: vertical omni-directional resonant Antenna on **80,40,20,15 and 10m**
 
