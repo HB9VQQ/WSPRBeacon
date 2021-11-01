@@ -78,7 +78,7 @@ The WSPR RX Monitor will follow the Band hop schedule of our WSPR Beacons. They 
 
 #### WSPR Monitor Requirements
 - **RF quiet QRM free Location**
-- WSPR Monitor location outside US and central EU
+- WSPR Monitor location **outside US and central EU**
 - Airspy HF+ Discovery
 - Raspberry Pi3 or 4
 - Internet connection
