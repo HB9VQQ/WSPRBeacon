@@ -96,7 +96,7 @@ Please [drop me a line](mailto:atomic@gmx.net) if you fully comply with the abov
 6. HAM Radio Club or individual?
 
 
-#### Project Milestones
+# Project Milestones
 
 - May-17 2021 Project kick off
 - May-19 2021 Custom Arduino Firmware finished. PoC successful
