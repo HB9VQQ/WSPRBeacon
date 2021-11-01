@@ -86,14 +86,15 @@ The WSPR RX Monitor will follow the Band hop schedule of our WSPR Beacons. They 
 
 The customized WSPR image for the Raspberry Pi will be provided by the Project once Registration is completed. The Airspy HF+ Discovery can be purchased with a special discount exclusively for participants of the WSPR Monitor Project. ***You do not have to be a licensed Amateur Radio Operator in order to participate in the Program.***
 
-Please [drop me a line](mailto:atomic@gmx.net) if you fully comply with the above requirements and if you want to participate in the Intl. WSPR RX Monitor Project. Please answer these 6 questions in your email:
+Please [drop me a line](mailto:atomic@gmx.net) if you fully comply with the above requirements and if you want to participate in the Intl. WSPR RX Monitor Project. Please answer these 7 questions in your email:
 
 1. What is the planned Monitor location?
-2. What Antenna will be used for the WSPR Monitor (Make and Model)?
-3. Is the Antenna installed as a vertical omni directional?
-4. Will the Antenna cover at least 80,40,20,15 and 10m Band?
-5. Do you agree to run the Monitor 24x7x365 (Best effort)?
-6. HAM Radio Club or individual?
+2. Is an Internet connection available at the Monitor site?
+3. What Antenna will be used for the WSPR Monitor (Make and Model)?
+4. Is the Antenna installed as a vertical omni directional?
+5. Will the Antenna cover at least 80,40,20,15 and 10m Band?
+6. Do you agree to run the Monitor 24x7x365 (Best effort)?
+7. HAM Radio Club or individual?
 
 
 # Project Milestones
