@@ -79,7 +79,7 @@ The WSPR RX Monitor will follow the Band hop schedule of our WSPR Beacons. They 
 #### WSPR Monitor Requirements
 - **RF quiet QRM free Location**
 - WSPR Monitor location **outside US and central EU**
-- **Airspy HF+ Discovery**
+- **Airspy HF+ Discovery or Airspy HF+ Dual**
 - Raspberry Pi 3B+ or 4, 16GB SD card
 - Internet connection
 - Preferred: vertical omni-directional resonant Antenna on **80,40,20,15 and 10m**
@@ -93,7 +93,7 @@ Please [drop me a line](mailto:atomic@gmx.net) if you fully comply with the abov
 3. What Antenna will be used for the WSPR Monitor (Make and Model)?
 4. Is the Antenna installed as a vertical omni directional?
 5. Will the Antenna cover at least 80,40,20,15 and 10m Band?
-6. Do you have an Airspy HF+ Discovery?
+6. Do you have an Airspy HF+ Dual or Discovery?
 7. Do you have a Raspberry Pi 3B+ or a Raspberry Pi 4?
 8. Do you agree to run the Monitor 24x7x365 (Best effort)?
 9. HAM Radio Club or individual?
