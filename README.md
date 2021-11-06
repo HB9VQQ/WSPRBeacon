@@ -72,7 +72,7 @@ Please [drop me a line](mailto:atomic@gmx.net) if you fully comply with the abov
 
 The global distribution of permanent WSPR receive sites is very poor and concentrates mainly on the US and central European territory. Outside of these regions there are many dark Spots. This is cleary made visible in this [Time lapse Video](https://youtu.be/DwP9e7xMAVY) taken on August-6 2021. For HF Propagation studies it is crucial to establish a well distributed global network of WSPR RX Monitors. This is Phase II of the Project, focusing to establish a network of WSPR Monitors outside of the US and central EU.
 
-The WSPR Monitor setup consists of an Airspy HF+ Discovery and a Raspberry Pi running a customized OS image, tailored for the individual WSPR Monitor. A description can be found [here](https://docs.google.com/document/d/e/2PACX-1vQwBbkGgE0oMXaGkVrAFNZtFjnylsCQre2WHf2CIEDpuUj8EZDj8jMv2VJoJ-nuQoM-AH1lTd7GsYEq/pub).
+The WSPR Monitor setup consists of an Airspy HF+ Discovery or Airspy HF+ Dual and a Raspberry Pi running a customized OS image, tailored for the individual WSPR Monitor. A description can be found [here](https://docs.google.com/document/d/e/2PACX-1vQwBbkGgE0oMXaGkVrAFNZtFjnylsCQre2WHf2CIEDpuUj8EZDj8jMv2VJoJ-nuQoM-AH1lTd7GsYEq/pub).
 
 The WSPR RX Monitor will follow the Band hop schedule of our WSPR Beacons. They will be in sync with our WSPR Transmitters and upload all decoded WSPR signals to the central Database at wsprnet.org.
 
