@@ -4,14 +4,14 @@ ID,Call,Locator,lat,lon,hagl in m (Top of Ant.),hamsl in m,Power,ant gain max,An
 3,EX0DX,MN72gu,42.853333,74.54,8,777,23dBm,1 dBi,EFHW 5 Band vertical/inverted L,
 4,PY1IFF,GG97bo,-22.40514,-41.84387,10,22,23dBm,1 dBi,Foxtell FOXCAMP 2020,
 5,ZS1WRC,JF95ON,-34.42413,19.22485,12,24,23dBm,0 dBi,"Webb FST 2,5 to 30MHz",
-6,KL2R,BP64ku,64.853333,-147.126667,,175,23dBm,0 dBi,Homebrew Trap Vertical,
+6,KL2R,BP64ku,64.853333,-147.126667,10,175,23dBm,0 dBi,Homebrew Trap Vertical,
 7,4Z4SI,KM71jd,32.03519,34.89412,20,45,23dBm,2 dBi,Hustler 6-BTV,
 8,VU2ITI,MK80eb,10.061889,76.332363,15,19,23dBm,1 dBi,EFHW 5 Band vertical/inverted L,
 9,K3WRG,FM28JH,38.31896,-75.21923,10,9,23dBm,2 dBi,GAP TITAN DX 80-10,http://gapantenna.com/shop/antennas/titan-dx/
 10,HB9T,JN36VW,46.94642,7.82455,16,847,23dBm,2 dBi,Q-Tek Penetrator,
 11,HP1GDP,FJ08FX,8.986,-79.52717,11,30,23dBm,2 dBi,Comet 250B,
 12,LU4AA,GF05RI,-34.6424,-58.50863,29,22,23dBm,2 dBi,Foxtell FOXCAMP 2020,https://produto.mercadolivre.com.br/MLB-1524042786-antena-vertical-hf-de-6m-a-80m-sem-acoplador-pronta-entrega-_JM#position=1&search_layout=stack&type=item&tracking_id=378af03f-74f6-4af9-b18f-b69eef773934
-13,CE3WSP,FF46PI,-33.65859,-70.72932,,539,23dBm,2 dBi,Comet 250B,
+13,CE3WSP,FF46PI,-33.65859,-70.72932,10,539,23dBm,2 dBi,Comet 250B,
 14,VK4BA,QG62NK,-27.55326,153.12877,8,65,23dBm,2 dBi,Hustler 4-BTV with extra 80m coil,
 16,N6UA,DN71qe,41.16393,-104.634,8,1809,23dBm,0 dBi,EFHW 5 Band vertical/inverted L,
 17,WB6YRW,CM97af,37.23803,-121.96812,9,93,23dBm,7 dBi,Skyloop 80-10,
@@ -30,7 +30,8 @@ ID,Call,Locator,lat,lon,hagl in m (Top of Ant.),hamsl in m,Power,ant gain max,An
 30,HS0AC,OK04hc,13.71665,100.42847,10,6,23dBm,1 dBi,EFHW 5 Band vertical/inverted L,
 31,ZL2KO,RE79uo,-40.40265,175.7268,10,467,23dBm,1 dBi,EFHW 5 Band vertical/inverted L,
 32,R0CBZ,PO80mn,50.54544,137.00331,11,28,23dBm,0 dBi,Homebrew Trap GP,
-33,ZS6MRK,KG44dh,-25.76208,28.30852,,1367,23dBm,,Butternut HF9V or EFHW,
+33,ZS6MRK,KG44dh,-25.76208,28.30852,,1367,23dBm,0 dBi,Butternut HF9V or EFHW,
 34,CE7UPK,FE34tm,-45.46028,-72.36339,10,63,23dBm,1 dBi,MFJ 1982-LP ,
 35,ZD9SSS,IE59bp,-40.34932,-9.88031,,400,23dBm,0 dBi,"Webb FST 2,5 to 30MHz",
 36,M0JUJ,IO90lu,50.84697,-1.07477,9,2,23dBm,1 dBi,EFHW 5 Band vertical/inverted L,Using his own 80to10 Transmitter
+37,VY0ERC,ER60tb,80.05337,-86.416018,10,500,23dBm,0 dBi,EFHW 5 Band,
