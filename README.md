@@ -6,7 +6,6 @@
 - [Forum on Groups.io](https://groups.io/g/wsprbeacon)
 - [Beacon Map](https://www.google.com/maps/d/u/1/edit?mid=14X0GJ4vSQ7D8piZfuHDs902Y9tINuPqB&usp=sharing)
 - [Beacon Install Guide](https://docs.google.com/document/d/e/2PACX-1vQ8NpAluBzQLvtmBtNEmT5UPE5NK837VXUSFWNpfqVB1S9B_h6ni0e-qS623HWeT4a5aj9Yk2dhVIWO/pub)
-- [Beacon Stations changelog](https://docs.google.com/spreadsheets/d/e/2PACX-1vSXlG44tx1tMN-O8uj6rz4-n5oaWh0DqvBvJcmGx7B9mfTzRn72MuUQmooxYWs48-KjkSZa056aiUwb/pubhtml)
 
 Custom Arduino Firmware for the [Zachtek WSPR Desktop Transmitter](https://www.zachtek.com/1012).
 This Firmware extends the factory functionality by adding a coordinated WSPR Band hopping transmit schedule following the [WSJT-X implementation](https://www.physics.princeton.edu/pulsar/K1JT/wsjtx-doc/wsjtx-main-2.3.0.html#_band_hopping)
