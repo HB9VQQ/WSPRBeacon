@@ -111,3 +111,4 @@ Please [drop me a line](mailto:atomic@gmx.net) if you fully comply with the abov
 - July-17 2021 18 Beacons shipped, 4 operational
 - August-17 2021 11 Beacon operational
 - October-24 2021 [First Band hopping WSPR Monitor alive @HP1COO](https://twitter.com/IntlWspr/status/1452365156487516165?s=20)
+- November-10 2021 Start of Phase II
