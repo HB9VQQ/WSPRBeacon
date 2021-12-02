@@ -70,6 +70,7 @@ Please [drop me a line](mailto:atomic@gmx.net) if you fully comply with the abov
 #### Status: Looking for Participants outside US and central EU
 
 - [Live operational WSPR Monitor status](https://wspr.live/gui/d/QZEHbeFnz/monitor-stations?orgId=1&refresh=5m)
+- [WSPR Monitor User Guide](https://bit.ly/31rpFuJ)
 
 The global distribution of permanent WSPR receive sites is very poor and concentrates mainly on the US and central European territory. Outside of these regions there are many dark Spots. This is cleary made visible in this [Time lapse Video](https://youtu.be/DwP9e7xMAVY) taken on August-6 2021. For HF Propagation studies it is crucial to establish a well distributed global network of WSPR RX Monitors. This is Phase II of the Project, focusing to establish a network of WSPR Monitors outside of the US and central EU.
 
