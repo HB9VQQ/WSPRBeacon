@@ -25,7 +25,6 @@ ID,Call,Locator,lat,lon,hagl in m (Top of Ant.),hamsl in m,Power,ant gain max,An
 25,3D2UR,RH91fu,-18.1489,178.445971,,9,23dBm,0 dBi,MEF-330-2K EFHW,
 26,DU1EV,PK04mp,14.62720022,121.0763004,16,25,23dBm,2 dBi,Comet 250B,
 27,CP6AA,FH73fq,-17.80276,-63.16694,10,419,23dBm,1 dBi,EFHW 5 Band vertical/inverted L,
-28,D4Z,HK76mv,16.87105,-24.93423,,647,23dBm,0 dBi,,
 29,VU2OB,ML88op,28.61779,77.21972,10,214,23dBm,1 dBi,EFHW 5 Band vertical/inverted L,
 30,HS0AC,OK04hc,13.71665,100.42847,10,6,23dBm,1 dBi,EFHW 5 Band vertical/inverted L,
 31,ZL2KO,RE79uo,-40.40265,175.7268,10,467,23dBm,1 dBi,EFHW 5 Band vertical/inverted L,
