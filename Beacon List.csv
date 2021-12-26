@@ -36,3 +36,4 @@ ID,Call,Locator,lat,lon,hagl in m (Top of Ant.),hamsl in m,Power,ant gain max,An
 37,VY0ERC,ER60tb,80.05337,-86.416018,10,500,23dBm,0 dBi,EFHW 5 Band,
 38,YB3PET,OI62jq,-7.2758,112.7937,,5,23dBm,0 dBi,Broadband vertical,
 39,VK3AGB,QF22fr,-37.262566,144.440385,10,530,23dBm,0 dBi,EFHW 5 Band vertical/inverted L,
+40,PY7ZC,HI21FS,-8.236611,-35.521489,10,467,23dBm,0 dBi,EFHW 8 Band,
