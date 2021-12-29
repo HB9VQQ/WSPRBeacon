@@ -4,4 +4,4 @@ ID,Call,Locator,lat,lon,hagl in m (Top of Ant.),hamsl in m,ant gain max,Antenna
 3,9K2RA,LL49ah,29.30894,48.01915,10,33,0,TBD
 4,5T5PA,IL11la,21.00613,-17.00742,6,1,0,X1-HF Vertical 1-50 MHz 
 5,4Z1YR,KM71MV,31.88327,35.00933,,280,0,Random wire with 9:1 UNUN
-6,VU2ITI,MJ89gw,29.3088,48.01912,10,95,0,EFHW
+6,VU2ITI,MJ89gw,9.93572,76.5275,10,95,0,EFHW
