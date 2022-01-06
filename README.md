@@ -92,15 +92,16 @@ The customized WSPR image for the Raspberry Pi will be provided by the Project o
 Please [drop me a line](mailto:atomic@gmx.net) if you fully comply with the above requirements and if you want to participate in the Intl. WSPR RX Monitor Project. Please answer these questions in your email:
 
 1. What is the planned Monitor location?
-2. Is an Internet connection available at the Monitor site?
-3. What Antenna will be used for the WSPR Monitor (Make and Model)?
-4. Can you confirm no other RF transmitting sources within 300m of the WSPR Receive Antenna?
-5. Is the Antenna installed as a vertical omni directional?
-6. Will the Antenna cover at least 80,40,20,15 and 10m Band?
-7. Do you have an Airspy HF+ Dual or Discovery?
-8. Do you have a Raspberry Pi 3B+ or a Raspberry Pi 4?
-9. Do you agree to run the Monitor 24x7x365 (Best effort)?
-10. HAM Radio Club or individual?
+2. Is it a QRM free location?
+3. Is an Internet connection available at the Monitor site?
+4. What Antenna will be used for the WSPR Monitor (Make and Model)?
+5. Can you confirm no other RF transmitting sources within 300m of the WSPR Receive Antenna?
+6. Is the Antenna installed as a vertical omni directional?
+7. Will the Antenna cover at least 80,40,20,15 and 10m Band?
+8. Do you have an Airspy HF+ Dual or Discovery?
+9. Do you have a Raspberry Pi 3B+ or a Raspberry Pi 4?
+10. Do you agree to run the Monitor 24x7x365 (Best effort)?
+11. HAM Radio Club or individual?
 
 
 # Project Milestones
