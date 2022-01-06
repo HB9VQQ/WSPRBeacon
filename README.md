@@ -95,7 +95,7 @@ Please [drop me a line](mailto:atomic@gmx.net) if you fully comply with the abov
 2. Is it a QRM free location?
 3. Is an Internet connection available at the Monitor site?
 4. What Antenna will be used for the WSPR Monitor (Make and Model)?
-5. Can you confirm no other RF transmitting sources within 300m of the WSPR Receive Antenna?
+5. Can you confirm no RF transmitting sources (HF Bands) within 300m (984 feet) of the WSPR Receive Antenna? 
 6. Is the Antenna installed as a vertical omni directional?
 7. Will the Antenna cover at least 80,40,20,15 and 10m Band?
 8. Do you have an Airspy HF+ Dual or Discovery?
