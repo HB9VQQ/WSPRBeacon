@@ -94,12 +94,13 @@ Please [drop me a line](mailto:atomic@gmx.net) if you fully comply with the abov
 1. What is the planned Monitor location?
 2. Is an Internet connection available at the Monitor site?
 3. What Antenna will be used for the WSPR Monitor (Make and Model)?
-4. Is the Antenna installed as a vertical omni directional?
-5. Will the Antenna cover at least 80,40,20,15 and 10m Band?
-6. Do you have an Airspy HF+ Dual or Discovery?
-7. Do you have a Raspberry Pi 3B+ or a Raspberry Pi 4?
-8. Do you agree to run the Monitor 24x7x365 (Best effort)?
-9. HAM Radio Club or individual?
+4. Can you confirm no other RF transmitting sources within 300m of the WSPR Receive Antenna?
+5. Is the Antenna installed as a vertical omni directional?
+6. Will the Antenna cover at least 80,40,20,15 and 10m Band?
+7. Do you have an Airspy HF+ Dual or Discovery?
+8. Do you have a Raspberry Pi 3B+ or a Raspberry Pi 4?
+9. Do you agree to run the Monitor 24x7x365 (Best effort)?
+10. HAM Radio Club or individual?
 
 
 # Project Milestones
