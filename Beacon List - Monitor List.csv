@@ -1,0 +1,8 @@
+ID,Call,Locator,lat,lon,hagl in m (Top of Ant.),hamsl in m,ant gain max,Antenna
+1,HP1COO,FJ08BN,8.56066,-79.88533,10,25,0,Inverted V
+2,RA0SMS,OO22CE,52.21065,104.12783,10,442,0,Active vertical antenna or equivalent
+3,9K2RA,LL49ah,29.30894,48.01915,10,33,0,TBD
+4,5T5PA,IL11la,21.00613,-17.00742,6,1,0,X1-HF Vertical 1-50 MHz 
+5,4Z1YR,KM71MV,31.88327,35.00933,,280,0,Random wire with 9:1 UNUN
+6,VU2ITI,MJ89gw,9.93572,76.5275,10,95,0,EFHW
+7,VA3BGW,EN93he,43.18455,-81.41314,10,300,0,DXCommander
