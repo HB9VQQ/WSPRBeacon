@@ -1,6 +1,6 @@
 # International WSPR Beacon Project - Phase I
 
-#### Status: Global Beacon deployment in Progress - Establishing world's largest HF Beacon Network
+#### Status: Global Beacon deployment in Progress - World's largest HF Beacon Network
 
 - [Live operational Beacon status](https://wspr.live/gui/d/mgTznmeMz/beacon-stations?orgId=1&refresh=5m)
 - [Forum on Groups.io](https://groups.io/g/wsprbeacon)
