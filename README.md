@@ -30,7 +30,7 @@ To identify and visualize weak Signal Propagation paths to study global Ham Radi
 
 Goal is to establish a global Network of 40 permanently installed, standardized, easy to operate, inexpensive and self-contained WSPR Beacons running **24x7x365** at strategic locations around the globe sharing the same or a very similar Setup:
 
-- **Omni directional Antenna** ([vertical EFHW](https://ibb.co/6FGC5WR), [DX Commander](https://www.m0mcx.co.uk/store/products/multi-band-80m-6m-hf-antenna-p-ale-compliant-antenna-survival-prep-sota-kit/), Multiband GP etc.)
+- **Omni directional Antenna** ([vertical EFHW](https://ibb.co/zN1MZ4y), [DX Commander](https://www.m0mcx.co.uk/store/products/multi-band-80m-6m-hf-antenna-p-ale-compliant-antenna-survival-prep-sota-kit/), Multiband GP etc.)
 - RF Power 200 mW
 - Same transmission schedule (following WSJT-X Band-hopping)
 - Same Band coverage **(at least 80,40,20,15 and 10m)**
