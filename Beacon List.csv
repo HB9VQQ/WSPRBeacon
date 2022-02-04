@@ -27,7 +27,7 @@ ID,Call,Locator,lat,lon,hagl in m (Top of Ant.),hamsl in m,Power,ant gain max,An
 27,CP6AA,FH73fq,-17.80276,-63.16694,10,419,23dBm,1 dBi,EFHW 5 Band vertical/inverted L,
 29,VU2OB,ML88op,28.61779,77.21972,10,214,23dBm,1 dBi,EFHW 5 Band vertical/inverted L,
 30,HS0AC,OK04hc,13.71665,100.42847,10,6,23dBm,1 dBi,EFHW 5 Band vertical/inverted L,
-31,ZL2KO,RE79uo,-40.40265,175.7268,10,467,23dBm,1 dBi,EFHW 5 Band vertical/inverted L,
+31,ZL2KO,RE79uo,-40.396667,175.54,10,467,23dBm,1 dBi,EFHW 5 Band vertical/inverted L,
 32,R0CBZ,PO80mn,50.54544,137.00331,11,28,23dBm,0 dBi,Homebrew Trap GP,
 33,ZS6MRK,KG44dh,-25.76208,28.30852,,1367,23dBm,0 dBi,Butternut HF9V or EFHW,
 34,CE7UPK,FE34tm,-45.46028,-72.36339,10,63,23dBm,1 dBi,MFJ 1982-LP ,
