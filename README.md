@@ -106,7 +106,7 @@ Please [drop me a line](mailto:atomic@gmx.net) if you fully comply with the abov
 
 # Project Milestones
 
-- May-17 2021 Project kick off
+- May-17 2021 Phase I - Project kick off
 - May-19 2021 Custom Arduino Firmware finished. PoC successful
 - May-20 2021 Placed order for first batch of 30 custom built WSPR Transmitters
 - May-22 2021 Started to onboard HAM Radio Clubs and individual WSPRer around the globe
