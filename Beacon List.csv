@@ -17,7 +17,6 @@ ID,Call,Locator,lat,lon,hagl in m (Top of Ant.),hamsl in m,Power,ant gain max,An
 17,WB6YRW,CM97af,37.23803,-121.96812,9,93,23dBm,7 dBi,Skyloop 80-10,
 18,RT9K,MP84vw,64.91373,77.70588,10,27,23dBm,2 dBi,Hustler 6-BTV,
 19,GM1BAN,IO88go,58.604919,-3.451091,4,15,23dBm,2 dBi,MV10 Range  MV6,https://www.sandpiperaerials.com/product/mv-10-range-mv6-61015204080-mtrs/
-20,VE8PAT,DP22tk,62.45628,-114.36336,,191,23dBm,2 dBi,Comet 250B,
 21,KH6EJ,BK92go,19.58548,-155.45003,10,2498,23dBm,0 dBi,MFJ 1982-LP ,
 22,S77HQ,LI75ri,-4.64387,55.47417,10,1,23dBm,5 dBi,DX Commander ABV,
 23,5T5PA,IL10lw,20.77225,-17.04768,30,1,23dBm,1 dBi,EFHW 8 Band,
@@ -36,3 +35,4 @@ ID,Call,Locator,lat,lon,hagl in m (Top of Ant.),hamsl in m,Power,ant gain max,An
 37,VY0ERC,ER60tb,80.05337,-86.416018,10,500,23dBm,0 dBi,EFHW 5 Band,
 38,YB3PET,OI62jq,-7.2758,112.7937,,5,23dBm,0 dBi,Broadband vertical,
 39,PY7ZC,HI21FS,-8.236611,-35.521489,10,467,23dBm,0 dBi,EFHW 8 Band,
+40,TF3D,HP93lu,63.8551256,-21.0417492,10,7,23dBm,0 dBi,Hustler 5BTV ,
