@@ -1,6 +1,5 @@
 ID,Call,Locator,lat,lon,hagl in m (Top of Ant.),hamsl in m,Power,ant gain max,Antenna,
 1,IU2PJI,JN45rj,45.41342,9.49426,10,84,23dBm,7 dBi,Skyloop 80-10,
-2,VK8MA,PH65dm,-14.467054,132.260461,11,110,23dBm,2 dBi,Comet 250B,https://w0qlremotebase.wordpress.com/2016/03/29/a-look-at-the-comet-cha250b-antenna/
 3,EX0DX,MN72gu,42.853333,74.54,8,777,23dBm,1 dBi,EFHW 5 Band vertical/inverted L,
 4,PY1IFF,GG97bo,-22.40514,-41.84387,10,22,23dBm,1 dBi,Foxtell FOXCAMP 2020,
 5,ZS1WRC,JF95ON,-34.42413,19.22485,12,24,23dBm,0 dBi,"Webb FST 2,5 to 30MHz",
