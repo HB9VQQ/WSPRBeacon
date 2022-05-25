@@ -2,7 +2,7 @@
 
 #### Status: Global Beacon deployment in Progress - World's largest HF Beacon Network
 
-- [Project Presentation]([https://wspr.live/gui/d/mgTznmeMz/beacon-stations?orgId=1&refresh=5m](https://docs.google.com/presentation/d/1ZiVFxnK0sdhbOPp_uHU_HbqRrd-KlBuqOnS8ExbhgRw/edit?usp=sharing))
+- [Project Presentation]([https://wspr.live/gui/d/mgTznmeMz/beacon-stations?orgId=1&refresh=5m](https://docs.google.com/presentation/d/1ZiVFxnK0sdhbOPp_uHU_HbqRrd-KlBuqOnS8ExbhgRw/edit?usp=sharing)
 - [Live operational Beacon status](https://wspr.live/gui/d/mgTznmeMz/beacon-stations?orgId=1&refresh=5m)
 - [Forum on Groups.io](https://groups.io/g/wsprbeacon)
 - [Beacon Map](https://www.google.com/maps/d/u/1/edit?mid=14X0GJ4vSQ7D8piZfuHDs902Y9tINuPqB&usp=sharing)
