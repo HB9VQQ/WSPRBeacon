@@ -36,3 +36,4 @@ ID,Call,Locator,lat,lon,hagl in m (Top of Ant.),hamsl in m,Power,ant gain max,An
 39,PY7ZC,HI21FS,-8.236611,-35.521489,10,467,23dBm,0 dBi,EFHW 8 Band,
 40,TF3D,HP93lu,63.8551256,-21.0417492,10,7,23dBm,0 dBi,Hustler 5BTV ,
 41,BX6AP,PL03bd,23.15981,120.15608,10,9,23dBm,0 dBi,GAP TITAN DX 80-10,
+42,VK3OTR,QF02wh,-37.67044,141.84344,10,131,23dBm,0 dBi,EFHW 5 Band vertical/inverted L,
