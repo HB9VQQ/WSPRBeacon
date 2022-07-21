@@ -10,8 +10,7 @@
 - [Beacon Change Log - Only for Beacon Members](https://docs.google.com/spreadsheets/d/1KlVyhMRb0aZc5vjpKeEL9VPiuYdYfMeD/edit#gid=1479276271)
 
 Coordinated global WSPR Beacons - Synchronized weak signal Network - same Power - same Band hopping schedule - 80,40,20,15,10m 24x7x365.
-Custom Arduino Firmware for the [Zachtek WSPR Desktop Transmitter](https://www.zachtek.com/1012).
-This Firmware extends the factory functionality by adding a coordinated WSPR Band hopping transmit schedule following the [WSJT-X implementation](https://www.physics.princeton.edu/pulsar/K1JT/wsjtx-doc/wsjtx-main-2.3.0.html#_band_hopping)
+Coordinated WSPR Band hopping transmit schedule following the [WSJT-X implementation](https://www.physics.princeton.edu/pulsar/K1JT/wsjtx-doc/wsjtx-main-2.3.0.html#_band_hopping)
 
 ![image](https://user-images.githubusercontent.com/75934980/130346156-f2015447-3da6-4354-9e6d-d06b5ef73f21.png))
 
