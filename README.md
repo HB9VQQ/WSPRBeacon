@@ -9,7 +9,7 @@
 - [Beacon Install Guide](https://docs.google.com/document/d/e/2PACX-1vQ8NpAluBzQLvtmBtNEmT5UPE5NK837VXUSFWNpfqVB1S9B_h6ni0e-qS623HWeT4a5aj9Yk2dhVIWO/pub)
 - [Beacon Change Log - Only for Beacon Members](https://docs.google.com/spreadsheets/d/1KlVyhMRb0aZc5vjpKeEL9VPiuYdYfMeD/edit#gid=1479276271)
 
-Coordinated global WSPR Beacons - Synchronized weak signal Network - same Power - same Band hopping schedule - 80,40,20,15,10m 24x7x365.
+Globally deployed WSPR Beacons - Synchronized weak signal Network - same Power - same Band hopping schedule - 80,40,20,15,10m 24x7x365.
 Coordinated WSPR Band hopping transmit schedule following the [WSJT-X implementation](https://www.physics.princeton.edu/pulsar/K1JT/wsjtx-doc/wsjtx-main-2.3.0.html#_band_hopping)
 
 ![image](https://user-images.githubusercontent.com/75934980/130346156-f2015447-3da6-4354-9e6d-d06b5ef73f21.png))
