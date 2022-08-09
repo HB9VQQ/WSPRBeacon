@@ -27,7 +27,7 @@ ID,Call,Locator,lat,lon,hagl in m (Top of Ant.),hamsl in m,Power,ant gain max,An
 30,HS0AC,OK04hc,13.71665,100.42847,10,6,23dBm,1 dBi,EFHW 5 Band vertical/inverted L,
 31,ZL2KO,RE79uo,-40.396667,175.54,10,467,23dBm,1 dBi,EFHW 5 Band vertical/inverted L,
 32,R0CBZ,PO80mn,50.54544,137.00331,11,28,23dBm,0 dBi,EFHW 5 Band vertical/inverted L,
-33,ZS6MRK,KG44dh,-25.76208,28.30852,,1367,23dBm,0 dBi,Butternut HF9V or EFHW,
+33,ZS6MRK,KG44dh,-25.76208,28.30852,,1367,23dBm,0 dBi,EFHW 8 Band,
 34,CE7FMP,FE44aj,-45.591226,-71.995574,10,63,23dBm,1 dBi,MFJ 1982-LP ,
 35,ZD9SSS,IE59bp,-40.34932,-9.88031,,400,23dBm,0 dBi,"Webb FST 2,5 to 30MHz",
 36,M0JUJ,IO90lu,50.84697,-1.07477,9,2,23dBm,1 dBi,EFHW 5 Band vertical/inverted L,Using his own 80to10 Transmitter
