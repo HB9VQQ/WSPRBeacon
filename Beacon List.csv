@@ -18,7 +18,6 @@ ID,Call,Locator,lat,lon,hagl in m (Top of Ant.),hamsl in m,Power,ant gain max,An
 19,GM1BAN,IO88go,58.604919,-3.451091,4,15,23dBm,2 dBi,MV10 Range  MV6,https://www.sandpiperaerials.com/product/mv-10-range-mv6-61015204080-mtrs/
 21,KH6EJ,BK92go,19.58548,-155.45003,10,2498,23dBm,0 dBi,MFJ 1982-LP ,
 22,S77HQ,LI75ri,-4.64387,55.47417,10,1,23dBm,5 dBi,DX Commander ABV,
-23,5T5PA,IL10lw,20.77225,-17.04768,30,1,23dBm,1 dBi,EFHW 8 Band,
 24,W9VW,EM79dt,39.815694,-85.729132,12,276,23dBm,1 dBi,EFHW 5 Band vertical/inverted L,
 25,3D2UR,RH91fu,-18.1489,178.445971,,9,23dBm,0 dBi,MEF-330-2K EFHW,
 26,DU1EV,PK04mp,14.62720022,121.0763004,16,25,23dBm,2 dBi,Comet 250B,
