@@ -17,7 +17,8 @@ Coordinated WSPR Band hopping transmit schedule following the [WSJT-X implementa
 
 For each enabled Band the scheduler will start to transmit at the corresponding Minute. This enables a global Network of WSPR Beacons to transmit on the same Band at the same time. The exact TX Frequency within the allocated WSPR segment/Band (200 Hz) is picked randomly by the Firmware. Here is a screenshot
 
-![image](https://user-images.githubusercontent.com/75934980/128779013-914098ca-6e87-4a67-a542-079a462cfafc.png)
+![image](https://user-images.githubusercontent.com/75934980/191307710-f5a96999-b84d-4593-a8af-99bc9c16cdb0.png)
+
 
 
 These coordinated Beacon Signals can then be decoded by WSJT-X (automated Band-Hopping) and uploaded to the [WSPRnet.org](https://wsprnet.org/drupal/) Database for further analysis.
