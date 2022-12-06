@@ -4,7 +4,6 @@ ID,Call,Locator,lat,lon,hagl in m (Top of Ant.),hamsl in m,Power,ant gain max,An
 4,PY1IFF,GG97bo,-22.40514,-41.84387,10,22,23dBm,1 dBi,Foxtell FOXCAMP 2020,
 5,ZS1WRC,JF95ON,-34.42413,19.22485,12,24,23dBm,0 dBi,"Webb FST 2,5 to 30MHz",
 6,KL2R,BP64ku,64.853333,-147.126667,10,175,23dBm,0 dBi,EFHW 5 Band vertical/inverted L,
-7,4Z4SI,KM71jd,32.03519,34.89412,20,45,23dBm,2 dBi,Hustler 6-BTV,
 8,VU2ITI,MK80eb,10.061889,76.332363,15,19,23dBm,1 dBi,EFHW 5 Band vertical/inverted L,
 9,K3WRG,FM28JH,38.31896,-75.21923,10,9,23dBm,2 dBi,GAP TITAN DX 80-10,http://gapantenna.com/shop/antennas/titan-dx/
 10,HB9T,JN36VW,46.94642,7.82455,16,847,23dBm,2 dBi,Q-Tek Penetrator,
