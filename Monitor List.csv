@@ -1,5 +1,6 @@
 ID,Call,Locator,lat,lon,hagl in m (Top of Ant.),hamsl in m,ant gain max,Antenna,RX,Compute
 1,HP1COO,FJ08BN,8.56066,-79.88533,10,25,0,Inverted V,Airspy HF+ Discovery,Raspberry Pi 3 B+
 2,RA0SMS,OO22CE,52.21065,104.12783,10,442,0,Double Half-Delta Loop,Airspy HF+ Discovery,Raspberry Pi 3 B+
-3,9K2RA,LL49ah,29.30894,48.01915,10,33,0,Cushcraft Antenna Vertical R8,Airspy HF+ Discovery,Raspberry Pi 3 B+
-8,HB9VQQ,JN47kh,47.305803,8.84804,10,650,0,EFHW vertical/sloping inverted L,Airspy HF+ Discovery,Raspberry Pi 4
+3,9K2RA,LL49ah,29.30894,48.01915,10,33,5,Cushcraft Antenna Vertical R8,Airspy HF+ Discovery,Raspberry Pi 3 B+
+8,HB9VQQ,JN47kh,47.305803,8.84804,10,650,1,EFHW vertical/sloping inverted L,Airspy HF+ Discovery,Raspberry Pi 4
+9,E28AC,OK06FS,16.77116,100.45022,7,60,2,Hustler 5 BTV,Airspy HF+ Discovery,Raspberry Pi 3 B+
