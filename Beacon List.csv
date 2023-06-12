@@ -8,7 +8,7 @@ ID,Call,Locator,lat,lon,hagl in m (Top of Ant.),hamsl in m,Power,ant gain max,An
 9,K3WRG,FM28JH,38.31896,-75.21923,10,9,23dBm,2 dBi,GAP TITAN DX 80-10,http://gapantenna.com/shop/antennas/titan-dx/
 10,HB9T,JN36VW,46.94642,7.82455,16,847,23dBm,2 dBi,Q-Tek Penetrator,
 11,HP1GDP,FJ08FX,8.986,-79.52717,11,30,23dBm,2 dBi,Comet 250B,
-12,LU4AA,GF05RI,-34.6424,-58.50863,29,22,23dBm,2 dBi,Foxtell FOXCAMP 2020,https://produto.mercadolivre.com.br/MLB-1524042786-antena-vertical-hf-de-6m-a-80m-sem-acoplador-pronta-entrega-_JM#position=1&search_layout=stack&type=item&tracking_id=378af03f-74f6-4af9-b18f-b69eef773934
+12,LU4AA,GF05sk,-34.6424,-58.50863,29,22,23dBm,2 dBi,Foxtell FOXCAMP 2020,https://produto.mercadolivre.com.br/MLB-1524042786-antena-vertical-hf-de-6m-a-80m-sem-acoplador-pronta-entrega-_JM#position=1&search_layout=stack&type=item&tracking_id=378af03f-74f6-4af9-b18f-b69eef773934
 13,CE3WSP,FF46PI,-33.65859,-70.72932,10,539,23dBm,2 dBi,Comet 250B,
 14,VK4BA,QG62NK,-27.55326,153.12877,8,65,23dBm,2 dBi,Hustler 4-BTV with extra 80m coil,
 16,N6UA,DN71qe,41.16393,-104.634,8,1809,23dBm,1 dBi,EFHW 5 Band vertical/inverted L,
@@ -38,3 +38,4 @@ ID,Call,Locator,lat,lon,hagl in m (Top of Ant.),hamsl in m,Power,ant gain max,An
 46,CS5TRG,IN50SE,40.173333,-8.483611,10,64,23dBm,1 dBi,EFHW 5 Band vertical/inverted L,
 47,CS5WB,IM68bn,38.54212,-7.90541,10,235,23dBm,2 dBi,Hustler 5BTV ,
 48,PZ5JW,GJ25io,5.605903,-55.281597,10,9,23dBm,1 dBi,EFHW 5 Band vertical/inverted L,
+49,VK4PK,QG62qi,-27.64256,153.41345,10,7,23dBm,2 dBi,Butternut HF9V,Using his own 80to10 Transmitter
