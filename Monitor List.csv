@@ -4,3 +4,4 @@ ID,Call,Locator,lat,lon,hagl in m (Top of Ant.),hamsl in m,ant gain max,Antenna,
 8,HB9VQQ,JN47kh,47.305803,8.84804,10,650,1,EFHW vertical/sloping inverted L,Airspy HF+ Discovery,Raspberry Pi 4
 9,E28AC,OK06FS,16.77116,100.45022,7,60,2,Hustler 5 BTV,Airspy HF+ Discovery,Raspberry Pi 3 B+
 10,JW1ITS,JQ38ad,78.14913,16.03869,5,494,0,LZ1AQ Loop,Airspy HF+ Discovery,Raspberry Pi 4
+11,VK4PK,QG62qi,-27.63333,153.41666,7,5,0,Butternut HF9V,Airspy HF+ Discovery,Raspberry Pi 4
