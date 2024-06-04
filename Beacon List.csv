@@ -27,7 +27,6 @@ ID,Call,Locator,lat,lon,hagl in m (Top of Ant.),hamsl in m,Power,ant gain max,An
 33,ZS6MRK,KG44dh,-25.76208,28.30852,10,1367,23dBm,1 dBi,EFHW 8 Band,
 34,CE7FMP,FE44aj,-45.591226,-71.995574,10,63,23dBm,1 dBi,MFJ 1982-LP ,
 35,ZD9SSS,IE59bp,-40.34932,-9.88031,7,400,23dBm,0 dBi,"Webb FST 2,5 to 30MHz",
-36,M0JUJ,IO90lu,50.84697,-1.07477,9,2,23dBm,1 dBi,EFHW 5 Band vertical/inverted L,Using his own 80to10 Transmitter
 37,VY0ERC,ER60tb,80.05337,-86.416018,10,500,23dBm,1 dBi,EFHW 5 Band vertical/inverted L,
 38,YB3RDW,OI62hq,-7.29916,112.65277,10,5,23dBm,1 dBi,EFHW 5 Band vertical/inverted L,
 40,TF3D,HP93lu,63.8551256,-21.0417492,10,7,23dBm,2 dBi,Hustler 5BTV ,
